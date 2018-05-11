@@ -1,5 +1,11 @@
-from MyEnum import TTEnum;
+﻿from MyEnum import TTEnum;
+"""
+Transaction class is used for storing single transaction.
+"""
 class Transaction:
+    """
+    Header Names
+    """
     TransTypeName = {
         TTEnum.SNO: 'Sno',
         TTEnum.Date: 'Date',
@@ -11,8 +17,16 @@ class Transaction:
         TTEnum.Deposit: 'Deposit',
         TTEnum.ClosingBalance: 'Closing Balance'
         };
+
+    """
+    Name of Transaction Map File
+    """
     ttMapFName = "TransactionMap.txt";
     transTypeMap = [];
+
+    """
+    This function is used for determining Transaction Type using TransactionMap file.
+    """
     def DetermineTranstype(self):
         transTypeMap = self.transTypeMap;
         for i in range(len(transTypeMap)):
@@ -20,6 +34,10 @@ class Transaction:
                 transTypeMap[i][0].lower() in self.value[TTEnum.TransType].lower()):
                 self.value[TTEnum.TransType] = transTypeMap[i][1];
                 self.updated = 1;
+
+    """
+    This function is used for populating TransactionTypeMap using Transaction MAP Text file.
+    """
     def PopulateTTMap(self):
         if (len(self.transTypeMap) == 0):
             try:
@@ -32,14 +50,17 @@ class Transaction:
             lines = [e.split(',') for e in lines];
             self.transTypeMap = lines;
 
+    """
+    Constructor for storing values
+    """
     def __init__(self, sno, date, transtype, narration, refno, valuedate, withdrawal, deposit, closingbalance):
         self.value = {};
         self.value[TTEnum.SNO] = sno;
-        self.value[TTEnum.Date] = date;
+        self.value[TTEnum.Date] = date.replace('/','-');
         self.value[TTEnum.TransType] = transtype;
         self.value[TTEnum.Narration] = narration;
         self.value[TTEnum.Refno] = refno;
-        self.value[TTEnum.ValueDate] = valuedate;
+        self.value[TTEnum.ValueDate] = valuedate.replace('/', '-');
         self.value[TTEnum.Withdrawal] = withdrawal;
         self.value[TTEnum.Deposit] = deposit;
         self.value[TTEnum.ClosingBalance] = closingbalance;

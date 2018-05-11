@@ -1,48 +1,89 @@
-from MyEnum import TTEnum;
+﻿from MyEnum import TTEnum;
 from Transaction import Transaction;
+
+"""
+Statement downloaded from different website contains different format.
+Each source from where we can download statement must inherit this class, 
+create a Transaction object, do required formating and return it.
+"""
 class StatementParser:
+    """
+    Statement parser base class
+    @param self pointer to self
+    @param transaction list containing one line of transaction
+    @param Line number of this transaction
+    @return Returns an object of Transaction class
+    """
     def Parse(self, transaction, sno):
-        print("This function must not get called");
-    def RemoveCommaFromNarration(self, transaction):
         print("This function must not get called");
     __Parse = Parse;
-    __RemoveCommaFromNarration = RemoveCommaFromNarration;
     
 class HDFCStatementParser(StatementParser):
+    """
+    transaction contains following entries in order:
+    Date
+    Narration
+    Reference Number
+    Value Date
+    Withdrawal Amount
+    Deposit
+    Closing Balance
+    """
     def Parse(self, transaction, sno):
         return Transaction(sno,
-                           transaction[0].replace('/', '-'),  #date
+                           transaction[0],  #date
                            '',              #transtype
                            transaction[1],  #narration
                            transaction[2],  #refno
-                           transaction[3].replace('/', '-'),  #valuedate
+                           transaction[3],  #valuedate
                            transaction[4],  #withdrawal
                            transaction[5],  #deposit
                            transaction[6]   #closingbalance
                            );
-    def RemoveCommaFromNarration(self, transaction):
-        if (len(transaction) == 8):
-            transaction
 
 class HDFCEditedStatementParser(StatementParser):
+    """
+    transaction contains following entries in order:
+    Date
+    Transaction Type
+    Narration
+    Reference Number
+    Value Date
+    Withdrawal Amount
+    Deposit
+    Closing Balance
+    """
     def Parse(self, transaction, sno):
         return Transaction(sno,             #sno
-                           transaction[0].replace('/', '-'),  #date
+                           transaction[0],  #date
                            transaction[1],  #transtype
                            transaction[2],  #narration
                            transaction[3],  #refno
-                           transaction[4].replace('/', '-'),  #valuedate
+                           transaction[4],  #valuedate
                            transaction[5],  #withdrawal
                            transaction[6],  #deposit
                            transaction[7]   #closingbalance
                            )
+"""
+Statement class provides functionality for storing all transaction of a perticular account.
+"""
 class Statement:
+    """
+    __init__ constructor take a multiple transactions as input, 
+    get it converted to Transaction objects and store it.
+    @param self current instance of Statement class
+    @param transactions All transaction in CSV format
+    @param parser Concrete object of child of Parser class
+    """
     def __init__(self, transactions, parser):
         self.transactions = [];
         transactions = [e.replace('\n', '').split(',') for e in transactions];
         for i in range(len(transactions)):
             self.transactions.append(parser.Parse(transactions[i], i));
-    
+
+    """
+    This function is used for creating Header String
+    """
     def HeaderString(self):
         #Header
         x='';
@@ -57,6 +98,9 @@ class Statement:
         x+=Transaction.TransTypeName[TTEnum.ClosingBalance];
         return x;
 
+    """
+    This function is used for converting list of transaction in to CSV string list and returns it.
+    """
     def ToStringList(self):
         ToWrite=[];
         ToWrite.append(self.HeaderString());
@@ -75,6 +119,10 @@ class Statement:
             x+=value[TTEnum.ClosingBalance];
             ToWrite.append(x);
         return ToWrite;
+
+    """
+    This function is used to get all entries for which Transaction Type has not been updated.
+    """
     def NotUpdatedTransTypeStringList(self):
         ToWrite = [];
         ToWrite.append(self.HeaderString());

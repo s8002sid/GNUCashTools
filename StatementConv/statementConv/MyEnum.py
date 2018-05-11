@@ -1,5 +1,7 @@
-from enum import IntEnum;
-
+﻿from enum import IntEnum;
+"""
+Enum to represent column
+"""
 class TTEnum(IntEnum):
         SNO=0
         Date=1
