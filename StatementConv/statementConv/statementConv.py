@@ -1,5 +1,4 @@
-from MyEnum import TTEnum;
-from Statement import Statement;
+﻿from Statement import Statement;
 from Statement import HDFCEditedStatementParser;
 from Statement import HDFCStatementParser;
 import re;
@@ -9,13 +8,6 @@ outputFile=r'output\2014-2015-edited.csv'
 fob = open(inputFile, "r");
 lines = fob.readlines();
 fob.close();
-p=re.compile ('[^"]*("[^"^,]*,?[^"]*")*[^"]*');
-for i in range(len(lines)):
-    m=p.findall(lines[i]);
-    for j in range(len(m)):
-        if(m[j] != ''):
-            m1=m[j].replace('"','').replace(',',' ');
-            lines[i] = lines[i].replace(m[j],m1);
 del lines[0];
 parser = HDFCEditedStatementParser();
 statement=Statement(lines, parser);

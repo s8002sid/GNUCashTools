@@ -32,6 +32,12 @@
     <Compile Include="Transaction.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Utility\CSV.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Utility\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

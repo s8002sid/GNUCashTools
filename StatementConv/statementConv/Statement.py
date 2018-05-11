@@ -1,6 +1,7 @@
 ﻿from MyEnum import TTEnum;
 from Transaction import Transaction;
-
+from Utility.CSV import CSV;
+import re
 """
 Statement downloaded from different website contains different format.
 Each source from where we can download statement must inherit this class, 
@@ -77,9 +78,9 @@ class Statement:
     """
     def __init__(self, transactions, parser):
         self.transactions = [];
-        transactions = [e.replace('\n', '').split(',') for e in transactions];
+        transactions = [e.replace('\n', '') for e in transactions];
         for i in range(len(transactions)):
-            self.transactions.append(parser.Parse(transactions[i], i));
+            self.transactions.append(parser.Parse(CSV.Tokenize(transactions[i]), i));
 
     """
     This function is used for creating Header String
