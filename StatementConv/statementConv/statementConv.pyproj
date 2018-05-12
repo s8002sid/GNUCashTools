@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ExportStatement.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MyEnum.py">
       <SubType>Code</SubType>
     </Compile>
@@ -29,6 +32,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="statementConv.py" />
+    <Compile Include="StatementParser.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Transaction.py">
       <SubType>Code</SubType>
     </Compile>
