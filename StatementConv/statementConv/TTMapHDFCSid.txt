@@ -1,0 +1,112 @@
+SIDDHARTH SBI ACCOUNT,Assets:Current Assets:Savings Account:State Bank Of India
+interest,Income:Indirect Income:Bank Interest
+irctc,Liabilities:Capital Account:Siddharth Kumar Jain
+spice jet,Liabilities:Capital Account:Siddharth Kumar Jain
+kavita singh,Expenses:Rent
+railways,Liabilities:Capital Account:Siddharth Kumar Jain
+nwd,Assets:Cash-in-hand
+atw,Assets:Cash-in-hand
+eaw,Assets:Cash-in-hand
+sbin0001055,Assets:Current Assets:Savings Account:State Bank Of India
+adobe,Income:Indirect Income:Salary
+pos,Liabilities:Capital Account:Siddharth Kumar Jain
+billdk,Liabilities:Capital Account:Siddharth Kumar Jain
+tpt,Liabilities:Capital Account:Siddharth Kumar Jain
+AVENUES INDIA LTD,Liabilities:Capital Account:Siddharth Kumar Jain
+SHREYANSH JAIN,Assets:Loans & Advances (Assets):Shreyansh Jain
+HATHWAY,Liabilities:Capital Account:Siddharth Kumar Jain
+HEWITT,Income:Indirect Income:Salary
+AON SERVICES,Income:Indirect Income:Salary
+CITRUS,Liabilities:Capital Account:Siddharth Kumar Jain
+RELIANCE COMMUNICATI,Liabilities:Capital Account:Siddharth Kumar Jain
+BOOKMYSHOW,Liabilities:Capital Account:Siddharth Kumar Jain
+PAYUIBIBOWEBPVTLTD,Liabilities:Capital Account:Siddharth Kumar Jain
+Expense,Liabilities:Capital Account:Siddharth Kumar Jain
+Travel,Liabilities:Capital Account:Siddharth Kumar Jain
+ATM,Assets:Cash-in-hand
+Transfer-SBI,Assets:Current Assets:Savings Account:State Bank Of India
+Salary,Income:Indirect Income:Salary
+Transfer-Shreyansh,Assets:Loans & Advances (Assets):Shreyansh Jain
+PAYURELIGA,Expenses:Medical Insurance
+AJAY JOSHI,Liabilities:Capital Account:Siddharth Kumar Jain
+MR  AJAY,Liabilities:Capital Account:Siddharth Kumar Jain
+GODADDY,Liabilities:Capital Account:Siddharth Kumar Jain
+CECS C-AKBPJ8974F,Expenses:Income TAX
+AMEX CARD,Liabilities:Capital Account:Siddharth Kumar Jain
+CHQ DEP MICR CLG NOIDA,Liabilities:Capital Account:Siddharth Kumar Jain
+PAYTM,Liabilities:Capital Account:Siddharth Kumar Jain
+AMAZON,Liabilities:Capital Account:Siddharth Kumar Jain
+DEBIT CARD PUR ADJ,Liabilities:Capital Account:Siddharth Kumar Jain
+BARB0DURGXX-SIDDHARTH KUMAR JAIN,Assets:Current Assets:Savings Account:Bank of Baroda
+MRSACHINKUMARPRASAD,Liabilities:Capital Account:Siddharth Kumar Jain
+AIRTELINMONEY,Liabilities:Capital Account:Siddharth Kumar Jain
+MAID A66,Liabilities:Capital Account:Siddharth Kumar Jain
+SHIWAM DIVEDI,Liabilities:Capital Account:Siddharth Kumar Jain
+FX MART PVT LTD,Liabilities:Capital Account:Siddharth Kumar Jain
+PROGRAMMANAGEMENT FEE,Liabilities:Capital Account:Siddharth Kumar Jain
+GVDPATIDAR,Liabilities:Capital Account:Siddharth Kumar Jain
+IMPS P2P 575,Liabilities:Capital Account:Siddharth Kumar Jain
+AYUSH BHATNAGAR,Liabilities:Capital Account:Siddharth Kumar Jain
+SACHIN KUMAR PRASAD,Liabilities:Capital Account:Siddharth Kumar Jain
+MAYANKJAIN,Liabilities:Capital Account:Siddharth Kumar Jain
+SURINDER SINGH BEDI,Liabilities:Capital Account:Siddharth Kumar Jain
+UBER@AXISBANK,Liabilities:Capital Account:Siddharth Kumar Jain
+MYNTRA@YBL,Liabilities:Capital Account:Siddharth Kumar Jain
+PAYUOLAM,Liabilities:Capital Account:Siddharth Kumar Jain
+JASBIR KAUR BEDI,Expenses:Rent
+9561869421@UPI,Liabilities:Capital Account:Siddharth Kumar Jain
+PAYUOLACAB,Liabilities:Capital Account:Siddharth Kumar Jain
+SACHINPRASAD1@YBL,Liabilities:Capital Account:Siddharth Kumar Jain
+PAYMENT@OKAXIS,Liabilities:Capital Account:Siddharth Kumar Jain
+SACHIN.05PRASAD-2@OKHDFCBANK,Liabilities:Capital Account:Siddharth Kumar Jain
+RAHULSAHERAWAT@OKHDFCBANK,Liabilities:Capital Account:Siddharth Kumar Jain
+DILIP KUMAR JAIN,Assets:Loans & Advances (Assets):Dilip Jain
+FD BOOKED,Assets:Investment:FD With HDFC
+SWEEP-IN CREDIT,Assets:Investment:FD With HDFC
+INT. ON SWCR,Income:Indirect Income:FD Interest
+SHAILENDRA0728@OKHDFCBANK,Liabilities:Capital Account:Siddharth Kumar Jain
+MRS SAROJ NAHATA,Liabilities:Capital Account:Siddharth Kumar Jain
+DIPTI ASHOK BHANSALI,Liabilities:Capital Account:Siddharth Kumar Jain
+ICICI PRUDENTIAL MU,Assets:Investment:Mutual Fund
+DEBIT CARD CASH BACK,Liabilities:Capital Account:Siddharth Kumar Jain
+DINESH MISHRILALJI PAGARIA,Liabilities:Capital Account:Siddharth Kumar Jain
+DIPTI BHANSALI,Liabilities:Capital Account:Siddharth Kumar Jain
+MF UTILITIES,Assets:Investment:Mutual Fund
+IB FD PREMAT PRINCIPAL,Assets:Investment:FD With HDFC
+IB FD PREMAT INT PAID,Income:Indirect Income:FD Interest
+SMARTBUY@HDFCBANK,Liabilities:Capital Account:Siddharth Kumar Jain
+LIC OF INDIA,Expenses:Life Insurance
+RAZPRAZORPAY,Liabilities:Capital Account:Siddharth Kumar Jain
+FOREXPLUS CARD USD,Liabilities:Capital Account:Siddharth Kumar Jain
+RAZPARZTECHNOLOGIES,Liabilities:Capital Account:Siddharth Kumar Jain
+FKRT@YBL,Liabilities:Capital Account:Siddharth Kumar Jain
+IB BILLPAY,Liabilities:Capital Account:Siddharth Kumar Jain
+ANUBHAVMISHRA1993@OKHDFCBANK,Liabilities:Capital Account:Siddharth Kumar Jain
+OLACABS@AXISBANK,Liabilities:Capital Account:Siddharth Kumar Jain
+THOMAS COOK,Liabilities:Capital Account:Siddharth Kumar Jain
+VARDHAMAN TEXT,Assets:Loans & Advances (Assets):Vardhaman Textiles
+50100211336136@HDFC,Liabilities:Capital Account:Siddharth Kumar Jain
+AMB CHRG INCL GST,Liabilities:Capital Account:Siddharth Kumar Jain
+8950044750@YBL,Liabilities:Capital Account:Siddharth Kumar Jain
+CCAREDBUSIN,Liabilities:Capital Account:Siddharth Kumar Jain
+JBY4933417_NET,Liabilities:Capital Account:Siddharth Kumar Jain
+UPIRET,Liabilities:Capital Account:Siddharth Kumar Jain
+UPI-RET,Liabilities:Capital Account:Siddharth Kumar Jain
+SACHIN KUMAR,Liabilities:Capital Account:Siddharth Kumar Jain
+TRAN-HDFC MID,Assets:Investment:Mutual Fund
+IMPS P2P TXN CHRG,Liabilities:Capital Account:Siddharth Kumar Jain
+@UPI,Liabilities:Capital Account:Siddharth Kumar Jain
+CBDT TAX,Assets:Loans & Advances (Assets):Vardhaman Textiles
+ADOBE SALARY,Income:Indirect Income:Salary
+VARDHAMAN TEXTILES,Assets:Loans & Advances (Assets):Vardhaman Textiles
+MOIN PHOTOGRAPGER,Liabilities:Capital Account:Siddharth Kumar Jain
+RASTOGI,Expenses:Rent
+CCAAIRASIABERHAD,Liabilities:Capital Account:Siddharth Kumar Jain
+FLIPKART,Liabilities:Capital Account:Siddharth Kumar Jain
+IMPS P2P,Liabilities:Capital Account:Siddharth Kumar Jain
+PAYUREDBUS,Liabilities:Capital Account:Siddharth Kumar Jain
+CGTRANSPORTDEPARTMEN,Liabilities:Capital Account:Siddharth Kumar Jain
+RFX 080218RCN01362,Liabilities:Capital Account:Siddharth Kumar Jain
+REF-LIC,Liabilities:Capital Account:Siddharth Kumar Jain
+XIAOMI,Liabilities:Capital Account:Siddharth Kumar Jain
+CGCTP,Assets:Loans & Advances (Assets):Vardhaman Textiles

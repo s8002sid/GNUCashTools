@@ -21,7 +21,7 @@ class Transaction:
     """
     Name of Transaction Map File
     """
-    ttMapFName = "TransactionMap.txt";
+    #ttMapFName = "TransactionMap.txt";
     transTypeMap = [];
 
     """
@@ -38,17 +38,18 @@ class Transaction:
     """
     This function is used for populating TransactionTypeMap using Transaction MAP Text file.
     """
-    def PopulateTTMap(self):
-        if (len(self.transTypeMap) == 0):
+    @staticmethod
+    def PopulateTTMap(ttMapFName):
+        if (len(Transaction.transTypeMap) == 0):
             try:
-                fob = open(self.ttMapFName, "r");
+                fob = open(ttMapFName, "r");
             except IOError:
                 return;
             lines = fob.readlines();
             fob.close();
             lines = [e.replace('\n', '') for e in lines];
             lines = [e.split(',') for e in lines];
-            self.transTypeMap = lines;
+            Transaction.transTypeMap = lines;
 
     """
     Constructor for storing values
@@ -64,6 +65,6 @@ class Transaction:
         self.value[TTEnum.Withdrawal] = withdrawal;
         self.value[TTEnum.Deposit] = deposit;
         self.value[TTEnum.ClosingBalance] = closingbalance;
-        self.PopulateTTMap();
+        #self.PopulateTTMap();
         self.updated = 0;
         self.DetermineTranstype();

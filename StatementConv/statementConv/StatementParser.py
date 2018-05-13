@@ -30,15 +30,24 @@ class HDFCStatementParser(StatementParser):
     Closing Balance
     """
     def Parse(self, transaction, sno):
+        withdrawal = 0.00;
+        deposit = 0.00;
+        closingBalance = 0.00;
+        if (transaction[4] != ''):
+            withdrawal = float(transaction[4]);
+        if (transaction[5] != ''):
+            deposit = float(transaction[5]);
+        if (transaction[6] != ''):
+            closingBalance = float(transaction[6]);
         return Transaction(sno,
                            transaction[0],  #date
                            '',              #transtype
                            transaction[1],  #narration
                            transaction[2],  #refno
                            transaction[3],  #valuedate
-                           transaction[4],  #withdrawal
-                           transaction[5],  #deposit
-                           transaction[6]   #closingbalance
+                           withdrawal,      #withdrawal
+                           deposit,         #deposit
+                           closingBalance   #closingbalance
                            );
 
 class HDFCEditedStatementParser(StatementParser):

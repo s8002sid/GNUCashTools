@@ -14,9 +14,9 @@ class Statement:
     @param transactions All transaction in CSV format
     @param parser Concrete object of child of Parser class
     """
-    def __init__(self, transactions, parser, statementTransType):
+    def __init__(self, transactions, parser, statementTransType, ttMapFName):
         self.transactions = [];
-        transactions = [e.replace('\n', '') for e in transactions];
+        Transaction.PopulateTTMap(ttMapFName);
         for i in range(len(transactions)):
-            self.transactions.append(parser.Parse(CSV.Tokenize(transactions[i]), i));
+            self.transactions.append(parser.Parse(transactions[i], i));
             self.statementTransType = statementTransType;

@@ -1,6 +1,7 @@
 from Statement import *;
 from Transaction import *;
 from MyEnum import *;
+from Utility.Utility import *;
 """
 This file contain statement exporter functions.
 """
@@ -83,15 +84,16 @@ class GNUCashStatement(StatementExporter):
         ToWrite.append(x);
         for i in range(len(self.statement.transactions)):
             value = self.statement.transactions[i].value;
-            amount=value[TTEnum.Deposit]-value[TTEnum.Withdrawal];
+            deposit = '"' + Utility.NumberToCurrency(value[TTEnum.Deposit]) + '"';
+            withdrawal = '"' + Utility.NumberToCurrency(value[TTEnum.Withdrawal]) + '"';
             x="";
             x+= value[TTEnum.Date] + ",";
             x+= value[TTEnum.Narration] + ",";      #Description
             x+= "CURRENCY::INR,";                   #Commodity/Currency
             x+= self.statement.statementTransType + ',';      #Full Account Name
-            x+= str(value[TTEnum.Deposit]) + ',';   #Deposit
-            x+= str(value[TTEnum.Withdrawal]) + ',';#Withdrawal
-            x+= '1,'                                #Reconcile, ReconcileDate, Rate/Price
+            x+= deposit + ',';                      #Deposit
+            x+= withdrawal + ',';                   #Withdrawal
+            x+= '1,';                               #Reconcile, ReconcileDate, Rate/Price
             x+= value[TTEnum.TransType];            #TransferAccount
             ToWrite.append(x);
         return ToWrite;

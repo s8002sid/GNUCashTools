@@ -1,22 +1,18 @@
 ﻿from Statement import Statement;
 from ExportStatement import *;
 from StatementParser import *;
+from UserSettings import *;
 import re;
-inputFile=r'C:\Users\siddjain\Google Drive\Home\Documents\Accounts\HDFC\Sid\2014-2015.csv';
-#outputFile=r'C:\Users\siddjain\Google Drive\Home\Documents\Accounts\HDFC\Sid\2014-2015-edited.csv';
-outputFile=r'output\2014-2015-edited.csv'
-fob = open(inputFile, "r");
-lines = fob.readlines();
-fob.close();
-del lines[0];
-parser = HDFCEditedStatementParser();
-statement=Statement(lines, parser, 'Assets:Current Assets:Savings Account:HDFC Bank');
-#strStatement = statement.ToStringList();
-#strStatement = statement.NotUpdatedTransTypeStringList();
-#strStatement = statement.GNUCashFormat1();
-statementWriter = GNUCashStatement(statement);
-#statementWriter = NonUpdatedStatement(statement);
-strStatement = statementWriter.ToString();
-fob = open (outputFile, "w");
-fob.write("\n".join(strStatement));
-fob.close();
+from Utility.Utility import Utility;
+from TransactionReader import *;
+
+sidSet = SiddharthSetting('HDFC', r'C:\Users\siddjain\Google Drive\Home\Documents\Accounts\HDFC\Sid\2017-2018.xls');
+transactions = sidSet.reader.Read(sidSet.inputFile);
+statement=Statement(transactions, sidSet.statementParser, sidSet.fullAccountPath, sidSet.ttMapFName);
+simpleStatementExporter = SimpleStatementExporter(statement);
+nonUpdatedStatementExporter = NonUpdatedStatement(statement);
+gnucashFormat = GNUCashStatement(statement);
+
+Utility.WriteStatement(simpleStatementExporter, sidSet.outputSimpleTransaction);
+Utility.WriteStatement(nonUpdatedStatementExporter, sidSet.outputMissedTransaction);
+Utility.WriteStatement(gnucashFormat, sidSet.outputGNUCashFormat);

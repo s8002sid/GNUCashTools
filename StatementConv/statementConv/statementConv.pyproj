@@ -38,7 +38,16 @@
     <Compile Include="Transaction.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="TransactionReader.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserSettings.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Utility\CSV.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utility\Utility.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
