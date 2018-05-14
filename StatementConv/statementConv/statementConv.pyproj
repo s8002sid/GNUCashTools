@@ -50,6 +50,9 @@
     <Compile Include="Utility\Utility.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Utility\WordStats.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Utility\" />

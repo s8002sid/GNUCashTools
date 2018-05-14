@@ -12,3 +12,5 @@ class TTEnum(IntEnum):
         Withdrawal=6
         Deposit=7
         ClosingBalance=8
+        Action=9
+        Account=10

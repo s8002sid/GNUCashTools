@@ -10,6 +10,7 @@ class UserSetting(object):
         self.inputfileFolder = '';
         self.inputFileName = '';
         self.ttMapFName = '';
+        self.atMapFName = ''
         self.fullAccountPath = '';
         self.inputFile = inputFile;
         self.accountName = accountName;
@@ -23,7 +24,17 @@ class UserSetting(object):
             if (extension == 'xls'):
                 self.reader = HDFCExcelReader();
             elif (extension == 'csv'):
-                self.reader = HDFCCSVReader();
+                self.reader = CSVReader();
+        if (accountName == 'SBI'):
+            self.statementParser = SBIStatementParser();
+            tmp = inputFile.split('.');
+            if (len(tmp) == 1 or tmp[1] == ''):
+                raise ValueError("File doesnot have extension");
+            extension = tmp[1];
+            if (extension == 'xls'):
+                self.reader = SBIExcelReader();
+            elif (extension == 'csv'):
+                self.reader = CSVReader();
 
 
     def CreatePathName(self):
@@ -44,8 +55,10 @@ class SiddharthSetting(UserSetting):
         elif(accountName == 'SBI'):
             self.fullAccountPath = 'Assets:Current Assets:Savings Account:State Bank Of India';
             self.ttMapFName = 'TTMapSBISid.txt'
-            self.simpleTransactionFileName = 'Sid' + accountName + self.simpleTransactionFileName;
-            self.missedTransactionFileName
+        elif(accountName == 'MF'):
+            self.fullAccountPath = 'Assets:Investment:Mutual Fund';
+            self.ttMapFName = 'TTMapMFSid.txt'
+            self.atMapFName = 'ATMapMFSid.txt'
         self.CreatePathName();
     
 

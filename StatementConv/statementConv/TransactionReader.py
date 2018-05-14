@@ -13,11 +13,6 @@ class CSVReader(TransactionReader):
         lines = [e.replace('\n', '') for e in lines];
         for i in range(len(lines)):
             lines[i] = CSV.Tokenize(lines[i]);
-        return lines;
-
-class HDFCCSVReader(CSVReader):
-    def Read(self, fileName):
-        lines = CSVReader.Read(self, fileName);
         del lines[0];
         return lines;
 
