@@ -61,7 +61,7 @@ class Transaction:
     """
     Constructor for storing values
     """
-    def __init__(self, sno, date, transtype, narration, refno, valuedate, withdrawal, deposit, closingbalance, action, account):
+    def __init__(self, sno, date, transtype, narration, refno, valuedate, withdrawal, deposit, closingbalance, action, account, price):
         self.value = {};
         self.value[TTEnum.SNO] = sno;
         self.value[TTEnum.Date] = date.replace('/','-');
@@ -74,6 +74,7 @@ class Transaction:
         self.value[TTEnum.ClosingBalance] = closingbalance;
         self.value[TTEnum.Action] = action;
         self.value[TTEnum.Account] = account;
+        self.value[TTEnum.Price] = price;
         #self.PopulateTTMap();
         self.updated = 0;
         self.value[TTEnum.TransType] = self.DetermineType(Transaction.transTypeMap, transtype, narration);

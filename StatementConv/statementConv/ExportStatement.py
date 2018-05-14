@@ -80,7 +80,8 @@ class GNUCashStatement(StatementExporter):
         x+= "Deposit,";
         x+= "Withdrawal,";
         x+= "Price,"
-        x+= "TransferAccount"
+        x+= "TransferAccount,"
+        x+= "Action"
         ToWrite.append(x);
         for i in range(len(self.statement.transactions)):
             value = self.statement.transactions[i].value;
@@ -90,10 +91,11 @@ class GNUCashStatement(StatementExporter):
             x+= value[TTEnum.Date] + ",";
             x+= value[TTEnum.Narration] + ",";      #Description
             x+= "CURRENCY::INR,";                   #Commodity/Currency
-            x+= self.statement.statementTransType + ',';      #Full Account Name
+            x+= value[TTEnum.Account] + ',';        #Full Account Name
             x+= deposit + ',';                      #Deposit
             x+= withdrawal + ',';                   #Withdrawal
-            x+= '1,';                               #Reconcile, ReconcileDate, Rate/Price
+            x+= value[TTEnum.Price] + ',';          #Rate/Price
             x+= value[TTEnum.TransType];            #TransferAccount
+            x+= value[TTEnum.Action];               #Action;
             ToWrite.append(x);
         return ToWrite;

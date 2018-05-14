@@ -14,3 +14,4 @@ class TTEnum(IntEnum):
         ClosingBalance=8
         Action=9
         Account=10
+        Price=11

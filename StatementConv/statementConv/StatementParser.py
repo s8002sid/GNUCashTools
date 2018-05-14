@@ -51,7 +51,8 @@ class HDFCStatementParser(StatementParser):
                            deposit,         #deposit
                            closingBalance,  #closingbalance
                            '',              #action
-                           ''               #account
+                           '',              #account
+                           '1'              #Price
                            );
 
 class SBIStatementParser(StatementParser):
@@ -89,7 +90,8 @@ class SBIStatementParser(StatementParser):
                            deposit,                     #deposit
                            closingBalance,              #closingbalance
                            '',                          #action
-                           ''                           #account
+                           '',                          #account
+                           '1'                          #Price
                            );
 class HDFCEditedStatementParser(StatementParser):
     """
@@ -123,7 +125,8 @@ class HDFCEditedStatementParser(StatementParser):
                            float(deposit),  #deposit
                            float(closingBalance),   #closingbalance
                            '',              #action
-                           ''               #account
+                           '',              #account
+                           '1'              #Price
                            )
 class MFStatementParser(StatementParser):
     """
@@ -140,5 +143,28 @@ class MFStatementParser(StatementParser):
         amount = float(transaction[15]);
         price = float(transaction[16]);
         description += ' Folio No. ' + transaction[18];
+        withdrawal = 0.0;
+        deposit = 0.0;
+        action = ''
+        if (transaction[4].strip() == 'Redeem'):
+            withdrawal = amount;
+            action = 'Sell';
+        else:
+            deposit = amount;
+            action = 'Buy';
+
         if (transaction[19].strip() != ''):
             description += '/' + transaction[19]
+        return Transaction(sno,             #Sno
+                           date,            #Date
+                           '',              #TransType
+                           description,     #Narration
+                           '',              #Refno
+                           date,            #ValueDate
+                           withdrawal,      #Withdrawal
+                           deposit,         #Deposit   
+                           0.0,             #ClosingBalance
+                           action,          #Action
+                           transaction[7],  #Account
+                           str(price));     #Price
+
