@@ -1,3 +1,4 @@
+﻿from datetime import datetime, timedelta;
 class Utility:
     @staticmethod
     def NumberToCurrency(number):
@@ -21,3 +22,10 @@ class Utility:
         fob = open(outputFile, "w");
         fob.write("\n".join(strStatement));
         fob.close();
+
+    @staticmethod
+    def GetDate(dateStr):
+        startDate=datetime(1899,12,30);
+        dateDelta = timedelta(int(dateStr.split('.')[0]));
+        date = startDate + dateDelta;
+        return date.strftime('%d-%m-%Y');

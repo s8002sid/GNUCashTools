@@ -1,4 +1,4 @@
-import xlrd;
+﻿import xlrd;
 import unicodedata;
 from Utility.CSV import *;
 class TransactionReader(object):
@@ -18,7 +18,7 @@ class CSVReader(TransactionReader):
 
 class ExcelReader(TransactionReader):
     def __init__(self):
-        self.transactionStartPoint = 0;
+        self.transactionStartPoint = 1;
         self.transactionEndPoint = 0;
 
     def Read(self, fileName):
@@ -57,3 +57,14 @@ class SBIExcelReader(ExcelReader):
         ExcelReader.__init__(self);
         self.transactionStartPoint = 21;
         self.transactionEndPoint = 2;
+
+class BOBExcelReader(ExcelReader):
+    def __init__(self):
+        ExcelReader.__init__(self);
+        self.transactionStartPoint = 15;
+        self.transactionEndPoint = 3;
+class FIndiaExcelReader(ExcelReader):
+    def __init__(self):
+        ExcelReader.__init__(self);
+        self.transactionStartPoint = 2;
+        self.transactionEndPoint = 0;

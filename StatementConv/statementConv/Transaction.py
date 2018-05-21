@@ -30,6 +30,8 @@ class Transaction:
     def DetermineType(self, typeMap, selfVal, matchWith):
         transTypeMap = typeMap;
         retVal = '';
+        if (transTypeMap == None):
+            return retVal;
         for i in range(len(transTypeMap)):
             if ((selfVal == '' and transTypeMap[i][0].lower() in matchWith.lower()) or
                 transTypeMap[i][0].lower() in selfVal.lower()):

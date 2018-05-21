@@ -1,4 +1,4 @@
-from Statement import *;
+﻿from Statement import *;
 from Transaction import *;
 from MyEnum import *;
 from Utility.Utility import *;
@@ -95,7 +95,7 @@ class GNUCashStatement(StatementExporter):
             x+= deposit + ',';                      #Deposit
             x+= withdrawal + ',';                   #Withdrawal
             x+= value[TTEnum.Price] + ',';          #Rate/Price
-            x+= value[TTEnum.TransType];            #TransferAccount
+            x+= value[TTEnum.TransType] + ',';      #TransferAccount
             x+= value[TTEnum.Action];               #Action;
             ToWrite.append(x);
         return ToWrite;
