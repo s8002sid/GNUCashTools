@@ -1,0 +1,23 @@
+Aditya Birla Sun Life Cash Manager - DG,Aditya Birla SL Cash Manager Direct-G
+Aditya Birla Sun Life Pure Value,Aditya Birla SL Pure Value Direct-G
+Aditya Birla Sun Life Top 100 - DG,Aditya Birla SL Focused Equity Direct-G
+CICI Pru Flexi Income - G,ICICI Pru Flexible Income-G
+Franklin India BLUECHIP FUND - DG,Franklin India Bluechip Direct-G
+Franklin India PRIMA FUND - DG,Franklin India Prima Direct-G
+Franklin India Prima Plus - G,Franklin India Prima Plus Direct-G
+Franklin India Smaller Companies Fund - DG,Franklin India Smaller Companies Direct-G
+Franklin India Ultra Short Bond - Super Inst - DG,Franklin India Ultra Short Bond Super Inst Direct-G
+HDFC Balanced - G,HDFC Balanced-G
+HDFC Mid-Cap Opportunities Direct (G),HDFC Mid-Cap Opportunities Direct-G
+ICICI Pru Value Descovery - G,ICICI Pru Value Discovery-G
+ICICI Prudential Savings - DG,ICICI Pru Savings Direct-G
+L&T India Value Fund - DG,L&T India Value Direct-G
+L&T Mid Cap Fund - DG,L&T India Large Cap Direct-G
+L&T Ultra Short Term Fund - DG,L&T Ultra ST Direct-G
+Motilal Oswal Multicap 35 - DG,Motilal Oswal Multicap 35 Direct-G
+SBI Blue Chip - DG,SBI Bluechip Direct-G
+SBI Blue Chip - G,SBI Bluechip-G
+SBI Magnum MidCap - DG,SBI Magnum Midcap Direct-G
+SBI Treasury Advantage - DG,SBI Banking and PSU Direct-G
+Aditya Birla Sun Life Top 100-DG,Aditya Birla SL Focused Equity Direct-G
+Franklin India Ultra Short Bond - Suoer Inst - DG,Franklin India Ultra Short Bond Super Inst Direct-G

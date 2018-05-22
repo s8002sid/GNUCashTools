@@ -47,6 +47,10 @@ class UserSetting(object):
             self.statementParser = FIndiaStatementParser();
             if (extension == 'xls'):
                 self.reader = FIndiaExcelReader();
+        elif ('GNU' in accountName):
+            self.statementParser = GNUStatementParser();
+            if (extension == 'xls'):
+                self.reader = ExcelReader();
 
 
 
@@ -103,4 +107,13 @@ class DiptiSetting(UserSetting):
             self.fullAccountPath = '';
             self.ttMapFName = 'TTMapMFDip.txt';
             self.atMapFName = 'ATMapMFDip.txt';
+        self.CreatePathName();
+
+class GNUCashSetting(UserSetting):
+    def __init__(self, accountName, inputFile):
+        super(GNUCashSetting, self).__init__(inputFile, accountName, 'GNU');
+        if(accountName == 'GNU'):
+            self.fullAccountPath='';
+            self.ttMapFName = 'TTMapMFGnu.txt';
+            self.atMapFName = 'ATMapMFGnu.txt';
         self.CreatePathName();

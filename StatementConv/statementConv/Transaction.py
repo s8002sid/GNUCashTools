@@ -83,4 +83,6 @@ class Transaction:
         if (self.value[TTEnum.TransType].strip() != ''):
             self.updated = 1;
         self.value[TTEnum.Account] = self.DetermineType(Transaction.accountTypeMap, account, account);
+        if (self.value[TTEnum.Account].strip() != ''):
+            self.updated = 1;
 

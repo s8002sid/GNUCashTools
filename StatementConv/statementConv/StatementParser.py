@@ -227,3 +227,45 @@ class FIndiaStatementParser(StatementParser):
                            action,
                            account,
                            price);
+
+class GNUStatementParser(StatementParser):
+    def Parse(self, transaction, sno):
+        #Date, empty, empty, empty, empty, empty, empty, action, empty, empty, account, empty, unit, empty, empty, price
+        #sno
+        if (transaction[0].strip() == ''):
+            return;
+        date = Utility.GetDate(transaction[0]);
+        transType= '';
+        description = transaction[10];
+        refNo = '';
+        action = transaction[7];
+        deposit = withdrawal = 0;
+        if(action.lower() == 'buy'):
+            deposit = float(transaction[12]);
+        else:
+            withdrawal = -float(transaction[12]);
+        closingBalance = 0;
+        account = transaction[10];
+        price = str(self.CalPrice(transaction[15]));
+        return Transaction(sno,
+                           date,
+                           transType,
+                           description,
+                           refNo,
+                           date,
+                           withdrawal,
+                           deposit,
+                           closingBalance,
+                           action,
+                           account,
+                           price);
+    def CalPrice(self, price):
+        price = price.replace(' ', '');
+        tmp = price.split('+');
+        if(len(tmp) == 1):
+            return float(tmp[0]);
+        a=float(tmp[0]);
+        tmp = tmp[1].split('/');
+        if(len(tmp) == 1):
+            return a+float(tmp[0]);
+        return a+(float(tmp[0])/float(tmp[1]));

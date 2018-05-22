@@ -20,6 +20,8 @@ class Statement:
         Transaction.PopulateMap(ttMapFName, atMapFName);
         for i in range(len(transactions)):
             transaction = parser.Parse(transactions[i], i);
+            if (transaction is None):
+                continue;
             if (transaction.value[TTEnum.Account] == ''):
                 transaction.value[TTEnum.Account] = statementTransType;
             self.transactions.append(transaction);

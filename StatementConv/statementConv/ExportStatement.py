@@ -99,3 +99,22 @@ class GNUCashStatement(StatementExporter):
             x+= value[TTEnum.Action];               #Action;
             ToWrite.append(x);
         return ToWrite;
+
+class ValueResearchStatement(StatementExporter):
+    def ToString(self):
+        ToWrite = [];
+        x="";
+        x+= "Date of transaction,";
+        x+= "Fund name,";
+        x+= "Number of units transacted,";
+        x+= "Transaction type"
+        ToWrite.append(x);
+        for i in range(len(self.statement.transactions)):
+            value = self.statement.transactions[i].value;
+            x="";             
+            x+= value[TTEnum.Date] + ",";
+            x+= value[TTEnum.Account] + ",";
+            x+= str(value[TTEnum.Withdrawal] + value[TTEnum.Deposit]) + ',';
+            x+= value[TTEnum.Action];
+            ToWrite.append(x);
+        return ToWrite;
