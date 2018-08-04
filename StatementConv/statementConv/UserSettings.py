@@ -31,6 +31,14 @@ class UserSetting(object):
             self.statementParser = SBIStatementParser();
             if (extension == 'xls'):
                 self.reader = SBIExcelReader();
+        elif (accountName == 'AllahabadBank'):
+            self.statementParser = AllahabadBankStatementParser();
+            if (extension == 'xls'):
+                self.reader = AllahabadBankExcelReader();
+        elif (accountName == 'IDBI'):
+            self.statementParser = IDBIStatementParser();
+            if (extension == 'xls'):
+                self.reader = IDBIExcelReader();
         elif (accountName == 'SBI'):
             self.statementParser = SBIStatementParser();
             if (extension == 'xls'):
@@ -77,6 +85,17 @@ class SiddharthSetting(UserSetting):
             self.ttMapFName = 'TTMapMFSid.txt'
             self.atMapFName = 'ATMapMFSid.txt'
         self.CreatePathName();
+
+class DadSetting(UserSetting):
+    def __init__(self, accountName, inputFile):
+        super(DadSetting, self).__init__(inputFile, accountName, 'Dad');
+        if(accountName == 'AllahabadBank'):
+            self.fullAccountPath = 'Assets:Current Assets:Saving Account:Allahabad Bank Durg 64099';
+            self.ttMapFName = 'TTMapAllahabadBankDad.txt'
+        if(accountName == 'IDBI'):
+            self.fullAccountPath = 'Assets:Current Assets:Saving Account:IDBI Bank 136136';
+            self.ttMapFName = 'TTMapIDBIDad.txt'
+        self.CreatePathName();
     
 class ShreyanshSetting(UserSetting):
     def __init__(self, accountName, inputFile):
@@ -100,6 +119,25 @@ class ShreyanshSetting(UserSetting):
             self.atMapFName = 'ATMapMFSid.txt'
         self.CreatePathName();
 
+class MomSetting(UserSetting):
+    def __init__(self, accountName, inputFile):
+        super(MomSetting, self).__init__(inputFile, accountName, 'Cha');
+        if(accountName == 'BOB'):
+            self.fullAccountPath = 'Assets:Current Assets:Savings Account:Bank of Baroda S/B 01446';
+            self.ttMapFName = 'TTMapBOBCha.txt';
+        elif(accountName == 'HDFC'):
+            self.fullAccountPath = 'Assets:Current Assets:Savings Account:H.D.F.C S/B 09151870000121';
+            self.ttMapFName = 'TTMapHDFCCha.txt';
+        self.CreatePathName();
+
+class ShwetaSetting(UserSetting):
+    def __init__(self, accountName, inputFile):
+        super(ShwetaSetting, self).__init__(inputFile, accountName, 'Shw');
+        if(accountName == 'HDFC'):
+            self.fullAccountPath = 'Assets:Current Assets:Savings Account:HDFC Bank';
+            self.ttMapFName = 'TTMapHDFCShw.txt';
+        self.CreatePathName();
+
 class DiptiSetting(UserSetting):
     def __init__(self, accountName, inputFile):
         super(DiptiSetting,self).__init__(inputFile, accountName, 'Dip');
@@ -107,6 +145,12 @@ class DiptiSetting(UserSetting):
             self.fullAccountPath = '';
             self.ttMapFName = 'TTMapMFDip.txt';
             self.atMapFName = 'ATMapMFDip.txt';
+        if (accountName == 'HDFC'):
+            self.fullAccountPath = 'Assets:Current Assets:Savings Account:HDFC 2414';
+            self.ttMapFName = 'TTMapHDFCDip.txt'
+        if (accountName == 'SBI'):
+            self.fullAccountPath = 'Assets:Current Assets:Savings Account:SBI';
+            self.ttMapFName = 'TTMapSBIDip.txt'
         self.CreatePathName();
 
 class GNUCashSetting(UserSetting):

@@ -1,0 +1,10 @@
+DILIP KUMAR JAIN,Assets:Current Assets:Saving Account:Allahabad Bank Durg 64099
+Int.:,Income:Indirect Incomes:BANK INT.
+UTIMF DIV EF 31735,Assets:Current Assets:DIVIDENT
+VARDHAMAN TEXTIL,Expenses:Indirect Expenses:Miscelenous
+CASH RECEIPT,Assets:Current Assets:Cash-In-Hand:Cash
+ANNUAL_CARDFEE,Expenses:Indirect Expenses:Bank Charges
+MF Utilities,Assets:Investments
+UTI MUTU,Assets:Investments
+SMS_CHARGES,Expenses:Indirect Expenses:Bank Charges
+BSNL,Expenses:Indirect Expenses:Miscelenous

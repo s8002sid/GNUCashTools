@@ -94,6 +94,79 @@ class SBIStatementParser(StatementParser):
                            '',                          #account
                            '1'                          #Price
                            );
+
+class AllahabadBankStatementParser(StatementParser):
+    """
+    Date
+    ValueDate
+    Description
+    Debit
+    Credit
+    Balance
+    """
+    def Parse(self, transaction, sno):
+        withdrawal = 0.00;
+        deposit = 0.00;
+        closingBalance = 0.00;
+        if (transaction[3].strip() != ''):
+            withdrawal = float(transaction[3]);
+        if (transaction[4].strip() != ''):
+            deposit = float(transaction[4]);
+        if (transaction[5].strip() != ''):
+            closingBalance = float(transaction[5].replace('CR', ''));
+        return Transaction(sno,
+                           transaction[0].replace('/', '-'),#date
+                           '',                          #transtype
+                           transaction[2],              #narration
+                           '',                          #refno
+                           transaction[1].replace('/', '-'),#valuedate
+                           withdrawal,                  #withdrawal
+                           deposit,                     #deposit
+                           closingBalance,              #closingbalance
+                           '',                          #action
+                           '',                          #account
+                           '1'                          #Price
+                           );
+
+class IDBIStatementParser(StatementParser):
+    """
+    SL No
+    Date
+    ValueDate
+    Description
+    ChequeNO
+    CR/DR
+    TxnType
+    Amount
+    Balance
+    """
+    def Parse(self, transaction, sno):
+        withdrawal = 0.00;
+        deposit = 0.00;
+        closingBalance = 0.00;
+        if (transaction[5].strip() == 'CR'):
+            deposit = float(transaction[7]);
+        elif (transaction[5].strip() == 'DR'):
+            withdrawal = float(transaction[7]);
+        if (transaction[8].strip() != ''):
+            closingBalance = float(transaction[8]);
+        chqNo = '';
+        if (transaction[4].strip() != ''):
+            chqNo = chqNo + ' Cheque No.: ' + transaction[4].strip();
+        return Transaction(sno,
+                           Utility.GetDate(transaction[1]),#date
+                           '',                          #transtype
+                           transaction[3] + chqNo,      #narration
+                           '',                          #refno
+                           Utility.GetDate(transaction[2]),#valuedate
+                           withdrawal,                  #withdrawal
+                           deposit,                     #deposit
+                           closingBalance,              #closingbalance
+                           '',                          #action
+                           '',                          #account
+                           '1'                          #Price
+                           );
+
 class BOBStatementParser(StatementParser):
     """
     SrNo, Date, Description, Checque No, Debit Amount, Credit Amt, Balance, Value Date

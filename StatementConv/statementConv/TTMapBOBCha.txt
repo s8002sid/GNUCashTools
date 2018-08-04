@@ -1,0 +1,10 @@
+Int.,Income:Indirect Income:BANK Int
+SMS Alert charges,Expenses:Indirect Expense:Bank Carges
+BY CASH,Assets:Current Assets:Cash-In-hand:Cash
+VARDHAMAN TEXTILES,Assets:Current Assets:Loans & Advances (Assets):Vardhaman Textile Durg
+7:MICR INWD CLG (CTS),Assets:Current Assets:Loans & Advances (Assets):Vardhaman Textile Durg
+RETURNED:7:PRESENT WITH DOCUMENT,Assets:Current Assets:Loans & Advances (Assets):Vardhaman Textile Durg
+JINKUSHAL ENTERPRISES,Assets:Current Assets:Loans & Advances (Assets):JINKUSHAL ENTERPRISES
+BILLDESK,Expenses:Direct Expenses:Miscelenous
+LIC,Assets:Current Assets:LIC
+APBS,Expenses:Indirect Expense:Miscellaneous

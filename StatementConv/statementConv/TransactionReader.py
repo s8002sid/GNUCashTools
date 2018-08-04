@@ -58,6 +58,18 @@ class SBIExcelReader(ExcelReader):
         self.transactionStartPoint = 21;
         self.transactionEndPoint = 2;
 
+class AllahabadBankExcelReader(ExcelReader):
+    def __init__(self):
+        ExcelReader.__init__(self);
+        self.transactionStartPoint = 22;
+        self.transactionEndPoint = 7;
+
+class IDBIExcelReader(ExcelReader):
+    def __init__(self):
+        ExcelReader.__init__(self);
+        self.transactionStartPoint = 7;
+        self.transactionEndPoint = 0;
+
 class BOBExcelReader(ExcelReader):
     def __init__(self):
         ExcelReader.__init__(self);

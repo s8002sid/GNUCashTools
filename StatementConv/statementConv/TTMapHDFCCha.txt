@@ -1,0 +1,7 @@
+VARDHAMAN TEXTILES,Assets:Current Assets:Loans & Advances (Assets):Vardhaman Textile Durg
+PROGRAMMANAGEMENT FEE,Expenses:Indirect Expense:Bank Carges
+CREDIT INTEREST CAPITALISED,Income:Indirect Income:BANK Int
+NAGRIK SAHAKARI BANK,Assets:Current Assets:Savings Account:N.S.B S/B 6570
+CASH DEP DURG,Assets:Current Assets:Cash-In-hand:Cash
+LIC,Assets:Current Assets:LIC
+TECHDURGMUNCIPALCORP,Expenses:Indirect Expense:Miscellaneous
