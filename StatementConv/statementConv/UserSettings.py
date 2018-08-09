@@ -6,6 +6,7 @@ class UserSetting(object):
         self.simpleTransactionFileName = 'SimpleTransaction.csv';
         self.missedTransactionFileName = 'MissedTransaction.csv'
         self.GNUCashFormatFileName = 'GNUCashFormat.csv';
+        self.VRFormatFileName = 'VRFormat.csv';
         self.settingFolder = '.\\';
         self.inputfileFolder = '';
         self.inputFileName = '';
@@ -21,12 +22,14 @@ class UserSetting(object):
         extension = tmp[1];
         if (extension == 'csv'):
             self.reader = CSVReader();
-
-        if ('HDFC' in accountName):
+        if ('HDFCSec' in accountName):
+            self.statementParser = HDFCSecStatementParser();
+            if (extension == 'xls'):
+                self.reader = HDFCSecExcelReader();
+        elif ('HDFC' in accountName):
             self.statementParser = HDFCStatementParser();
             if (extension == 'xls'):
                 self.reader = HDFCExcelReader();
-            
         elif (accountName == 'SBI'):
             self.statementParser = SBIStatementParser();
             if (extension == 'xls'):
@@ -66,6 +69,7 @@ class UserSetting(object):
         self.outputSimpleTransaction = self.outputFileFolder + self.prefix + '-' + self.accountName + '-' + self.simpleTransactionFileName;
         self.outputMissedTransaction = self.outputFileFolder + self.prefix + '-' + self.accountName + '-' + self.missedTransactionFileName;
         self.outputGNUCashFormat = self.outputFileFolder + self.prefix + '-' + self.accountName + '-' + self.GNUCashFormatFileName;
+        self.outputVRFormat = self.outputFileFolder + self.prefix + '-' + self.accountName + '-' + self.VRFormatFileName;
         self.ttMapFName = self.settingFolder + self.ttMapFName;
         
         
@@ -151,6 +155,10 @@ class DiptiSetting(UserSetting):
         if (accountName == 'SBI'):
             self.fullAccountPath = 'Assets:Current Assets:Savings Account:SBI';
             self.ttMapFName = 'TTMapSBIDip.txt'
+        if (accountName == 'HDFCSec'):
+            self.fullAccountPath = '';
+            self.ttMapFName = 'TTMapHDFCSecDip.txt'
+            self.atMapFName = 'ATMapHDFCSecDip.txt';
         self.CreatePathName();
 
 class GNUCashSetting(UserSetting):

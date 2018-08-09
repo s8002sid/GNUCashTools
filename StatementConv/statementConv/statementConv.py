@@ -6,16 +6,25 @@ import re;
 from Utility.Utility import Utility;
 from TransactionReader import *;
 
-def WriteGNUCTransaction(wordStatFile, set):
+def ReadTransaction(set):
     transactions = set.reader.Read(set.inputFile);
     statement=Statement(transactions, set.statementParser, set.fullAccountPath, set.ttMapFName, set.atMapFName);
     nonUpdatedStatementExporter = NonUpdatedStatement(statement);
     simpleStatementExporter = SimpleStatementExporter(statement);
+    return transactions, statement, nonUpdatedStatementExporter, simpleStatementExporter;
+
+def WriteGNUCTransaction(wordStatFile, set):
+    transactions, statement, nonUpdatedStatementExporter, simpleStatementExporter = ReadTransaction(set);
     gnucashFormat = GNUCashStatement(statement);
     Utility.WriteStatement(simpleStatementExporter, set.outputSimpleTransaction);
     Utility.WriteStatement(nonUpdatedStatementExporter, set.outputMissedTransaction);
     Utility.WriteStatement(gnucashFormat, set.outputGNUCashFormat);
     statement.WriteWordStat(wordStatFile);
+
+def WriteVRTransaction(set):
+    transactions, statement, nonUpdatedStatementExporter, simpleStatementExporter = ReadTransaction(set);
+    vrFormat = ValueResearchStatement(statement);
+    Utility.WriteStatement(vrFormat, set.outputVRFormat);
 
 #Dipti SBI Account Generator
 #set = DiptiSetting('SBI', r'C:\Users\siddjain\Google Drive\Home\Share\Dipti-Share\Document\Account\Statement\Bank\SBI_2017-2018.xls');
@@ -33,8 +42,9 @@ def WriteGNUCTransaction(wordStatFile, set):
 #set = DadSetting('AllahabadBank', r'C:\Users\siddjain\Google Drive\Home\Share\Dilip-Share\Document\Account\Statement\Bank\2017-2018-04-08.xls');
 #set = DadSetting('AllahabadBank', r'C:\Users\siddjain\Google Drive\Home\Share\Dilip-Share\Document\Account\Statement\Bank\2017-2018-09-01.xls');
 #set = DadSetting('AllahabadBank', r'C:\Users\siddjain\Google Drive\Home\Share\Dilip-Share\Document\Account\Statement\Bank\2017-2018-02-03.xls');
-set = DadSetting('IDBI', r'C:\Users\siddjain\Google Drive\Home\Share\Dilip-Share\Document\Account\Statement\Bank\IDBI_2017-2018.xls');
-WriteGNUCTransaction(r"output\WordStat.txt", set);
+set = DiptiSetting('HDFCSec', r'C:\Users\siddjain\Google Drive\Home\Share\Dipti-Share\Document\Account\Statement\HDFCSec\ETFStatement2014-2015.xls');
+WriteVRTransaction(set);
+#WriteGNUCTransaction(r"output\WordStat.txt", set);
 
 #set = DiptiSetting('HDFC', r'C:\Users\siddjain\Google Drive\Home\Share\Dipti-Share\Document\Account\Statement\Bank\2017-2018.xls');
 

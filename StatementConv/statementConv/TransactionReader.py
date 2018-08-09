@@ -52,6 +52,12 @@ class HDFCExcelReader(ExcelReader):
         self.transactionStartPoint = 22;
         self.transactionEndPoint = 18;
 
+class HDFCSecExcelReader(ExcelReader):
+    def __init__(self):
+        ExcelReader.__init__(self);
+        self.transactionStartPoint = 3;
+        self.transactionEndPoint = 0;
+
 class SBIExcelReader(ExcelReader):
     def __init__(self):
         ExcelReader.__init__(self);

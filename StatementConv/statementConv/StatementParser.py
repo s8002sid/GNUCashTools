@@ -166,6 +166,54 @@ class IDBIStatementParser(StatementParser):
                            '',                          #account
                            '1'                          #Price
                            );
+class HDFCSecStatementParser(StatementParser):
+    """
+    Date
+    Exchange
+    Symbol
+    Action
+    Order Qty
+    DisclQty
+    ExecQty
+    OrderPrice
+    TriggerPrice
+    BookType
+    Sett. Type
+    Terminal ID
+    OrderType
+    Source
+    Product
+    Status
+    Reason
+    HSL Ref No
+    Exch Order No
+    BasketID
+    """
+    def Parse(self, transaction, sno):
+        withdrawal = 0.00;
+        deposit = 0.00;
+        closingBalance = 0.00;
+        narration = '';
+        amount = float(transaction[6]);
+        if (transaction[3].strip() == 'BUY'):
+            deposit = amount;
+        elif (transaction[3].strip() == 'SELL'):
+            withdrawal = amount;
+        narration = 'Exchange: ' + transaction[1] + ' Symbol: ' + transaction[2] + ' HSL Ref No: ' + transaction[17];
+        narration += ' Exch Order No: ' + transaction[18] + ' Basket ID: ' + transaction[19] + 'Action: ' + transaction[3];
+        return Transaction(sno,
+                           Utility.GetDate(transaction[0].split(' ')[0]),#date
+                           '', #transtype
+                           narration,      #narration
+                           '',             #refno
+                           Utility.GetDate(transaction[0].split(' ')[0]),#valuedate
+                           withdrawal,                  #withdrawal
+                           deposit,                     #deposit
+                           closingBalance,              #closingbalance
+                           transaction[3],              #action
+                           narration,                   #account
+                           transaction[7]               #Price
+                           );
 
 class BOBStatementParser(StatementParser):
     """
