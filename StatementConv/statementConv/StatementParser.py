@@ -242,6 +242,41 @@ class BOBStatementParser(StatementParser):
                            '',
                            '',
                            '1');
+
+class LVBankStatementParser(StatementParser):
+    """
+    TrDate, ValDate, RefNO, TransDisc, D/C, Amount, Running Balance
+    """
+
+    def Parse(self, transaction, sno):
+        withdrawal = 0.00;
+        deposit = 0.00;
+        closingBalance = 0.00;
+
+        if (transaction[4].strip() == 'C'):
+            deposit = float(transaction[5]);
+        elif (transaction[4].strip() == 'D'):
+            withdrawal = float(transaction[5]);
+        if (deposit < 0):
+            withdrawal = -deposit;
+            deposite = 0.0;
+        elif (withdrawal < 0):
+            deposit = -withdrawal;
+            withdrawal = 0.0;
+        closingBalance = transaction[6];
+        #sno, date, transtype, narration, refno, valuedate, withdrawal, deposit, closingbalance, action, account, price
+        return Transaction(sno,
+                           Utility.GetDate(transaction[1]),
+                           '',
+                           transaction[3],
+                           transaction[2],
+                           Utility.GetDate(transaction[0]),
+                           withdrawal,
+                           deposit,
+                           closingBalance,
+                           '',
+                           '',
+                           '1');
                                  
 
 class HDFCEditedStatementParser(StatementParser):

@@ -1,0 +1,89 @@
+Cash Deposit,Assets:Current Assets:Cash Account:Cash
+TO 328.274,Assets:Current Assets:Savings Account:LVB-Saving
+TO 360.1343,Assets:Current Assets:Savings Account:LVB-Saving
+IMPS CHARGES,Expenses:Bank Charges
+0232328000000274,Assets:Current Assets:Savings Account:LVB-Saving
+Funds Trf from XX0274,Assets:Current Assets:Savings Account:LVB-Saving
+ANAND DEV CHANDRAKAR,Assets:Current Assets:Account Receivables:Sundry Debtors:Anand Dev Chandrakar
+LEKHRAM  YADAV,Assets:Current Assets:Account Receivables:Sundry Debtors:Lekhram Yadav
+CLG CHQ RETN CHRG,Expenses:Bank Charges
+MANOJ KUMAR VERMA,Assets:Current Assets:Account Receivables:Sundry Debtors:Manoj Kumar Verma
+SANJAY JAIN,Assets:Current Assets:Account Receivables:Sundry Debtors:Sanjay Jain
+kamal cloth,Assets:Current Assets:Account Receivables:Sundry Debtors:Kamal Cloth
+CHG REV,Expenses:Bank Charges
+Devkumar verma,Assets:Current Assets:Account Receivables:Sundry Debtors:Dev Kumar Verma
+DEV KUMAR VERMA,Assets:Current Assets:Account Receivables:Sundry Debtors:Dev Kumar Verma
+Preetpal belchandan,Assets:Current Assets:Account Receivables:Sundry Debtors:Preetpal Belchandan
+Sahu treders,Assets:Current Assets:Account Receivables:Sundry Debtors:Sahu Traders
+Jitendra kumar,Assets:Current Assets:Account Receivables:Sundry Debtors:Jitendra Kumar
+Lekhram yadav,Assets:Current Assets:Account Receivables:Sundry Debtors:Lekhram Yadav
+Lekhram nagpure,Assets:Current Assets:Account Receivables:Sundry Debtors:Lekhram Nagpure
+Sparshautomobiles,Assets:Current Assets:Account Receivables:Sundry Debtors:Bedram Yadav
+Shailash Kumar Harmukh,Assets:Current Assets:Account Receivables:Sundry Debtors:Shailesh Kumar Harmukh
+Deepakparakh,Assets:Current Assets:Account Receivables:Sundry Debtors:Deepak Parakh
+Tilak kumar dewangan,Assets:Current Assets:Account Receivables:Sundry Debtors:Tilak Kumar Dewangan
+UMEND LAL VERMA,Assets:Current Assets:Account Receivables:Sundry Debtors:Umend Lal Verma
+frm 232.328.274,Assets:Current Assets:Savings Account:LVB-Saving
+PARSH AUTOMOBILE,Assets:Current Assets:Account Receivables:Sundry Debtors:Bedram Yadav
+BEDRAM YADAV,Assets:Current Assets:Account Receivables:Sundry Debtors:Bedram Yadav
+Amitkumartamrakar,Assets:Current Assets:Account Receivables:Sundry Debtors:Amit Kumar Tamrakar
+Beautyplanet,Assets:Current Assets:Account Receivables:Sundry Debtors:Beauty Planet
+Rajeshkumarnishad,Assets:Current Assets:Account Receivables:Sundry Debtors:Rajesh Kumar Nishad
+UTTAR KUMAR VERMA,Assets:Current Assets:Account Receivables:Sundry Debtors:Uttar Kumar Verma
+Sahumobileshop,Assets:Current Assets:Account Receivables:Sundry Debtors:Sahu Mobile Shop
+SAURABH SHARMA,Assets:Current Assets:Account Receivables:Sundry Debtors:Saurabh Sharma
+RAM KUMAR YADAV,Assets:Current Assets:Account Receivables:Sundry Debtors:Ram Kumar Verma
+Newuttamclothstore,Assets:Current Assets:Account Receivables:Sundry Debtors:New Uttam Cloth Store
+Manindersinghbhatia,Assets:Current Assets:Account Receivables:Sundry Debtors:Manindra Singh Bhatia
+HARAKH LAL SAHU,Assets:Current Assets:Account Receivables:Sundry Debtors:Harak Lal Sahu
+Manojkumarverma,Assets:Current Assets:Account Receivables:Sundry Debtors:Manoj Kumar Verma
+BEAUTY PLANET,Assets:Current Assets:Account Receivables:Sundry Debtors:Beauty Planet
+Lekhramyadav,Assets:Current Assets:Account Receivables:Sundry Debtors:Lekhram Yadav
+Chetan Kumar Verma,Assets:Current Assets:Account Receivables:Sundry Debtors:Chetan Kumar Verma
+TUMAN VARMA,Assets:Current Assets:Account Receivables:Sundry Debtors:Tuman Verma
+Lekhramdewangan,Assets:Current Assets:Account Receivables:Sundry Debtors:Lekhram Dewangan
+Rishikumartamrakar,Assets:Current Assets:Account Receivables:Sundry Debtors:Rishi Kumar Tamrakar
+Milap Ram Verma,Assets:Current Assets:Account Receivables:Sundry Debtors:Milap Ram Verma
+AMIT GOLU,Assets:Current Assets:Account Receivables:Sundry Debtors:Amit Kumar Tamrakar
+Jeevan Lal Verma,Assets:Current Assets:Account Receivables:Sundry Debtors:Jeevan Lal Verma
+GYAN KUMAR DEWANGAN,Assets:Current Assets:Account Receivables:Sundry Debtors:Gyan Kumar Dewangan
+MANILAL SO TEJRAM,Assets:Current Assets:Account Receivables:Sundry Debtors:Manilal Dewangan
+UMENDLAL VERMA,Assets:Current Assets:Account Receivables:Sundry Debtors:Umend Lal Verma
+Preetpalbelchandan,Assets:Current Assets:Account Receivables:Sundry Debtors:Preetpal Belchandan
+SHUBHANK D SHARMA,Assets:Current Assets:Account Receivables:Sundry Debtors:Shubhank D Sharma
+IMPS P2A 7031602782,Assets:Current Assets:Account Receivables:Sundry Debtors:NULL
+IMPS P2A 052510400001110,Assets:Current Assets:Account Receivables:Sundry Debtors:NULL
+IMPS P2A 7033250420,Assets:Current Assets:Account Receivables:Sundry Debtors:NULL
+IMPS P2A 601002070065,Assets:Current Assets:Account Receivables:Sundry Debtors:NULL
+IMPS P2A 601002133404,Assets:Current Assets:Account Receivables:Sundry Debtors:NULL
+SIDDHARTH KUMAR JAIN,Expenses:Others
+Dilip Kumar jain,Assets:Current Assets:Savings Account:LVB-Saving
+To ClgGYAN,Assets:Current Assets:Account Receivables:Sundry Debtors:Gyan Kumar Dewangan
+O/W CLEARING,Assets:Current Assets:Account Receivables:Sundry Debtors:Gyan Kumar Dewangan
+IMPS P2A 296002000000020,Assets:Current Assets:Account Receivables:Sundry Debtors:Tilak Kumar Dewangan
+IMPS P2A 50200013337103,Assets:Current Assets:Account Receivables:Sundry Debtors:Unknown
+IMPS P2A 20136481033,Assets:Current Assets:Account Receivables:Sundry Debtors:Lekhram Yadav
+IMPS P2A 54870100000431,Assets:Current Assets:Account Receivables:Sundry Debtors:Bedram Yadav
+IMPS P2A 287701000000425,Assets:Current Assets:Account Receivables:Sundry Debtors:Shailesh Kumar Harmukh
+IMPS P2A 7254000100005154,Current Assets:Account Receivables:Sundry Debtors:Uttar Kumar Verma
+IMPS P2A 0525104000051110,Assets:Current Assets:Account Receivables:Sundry Debtors:Sahu Mobile Shop
+IMPS P2A 275910100019537,Assets:Current Assets:Account Receivables:Sundry Debtors:Saurabh Sharma
+IMPS P2A 60287618546,Assets:Current Assets:Account Receivables:Sundry Debtors:Ram Kumar Verma
+IMPS P2A 60298490994,Assets:Current Assets:Account Receivables:Sundry Debtors:Sahu Traders
+IMPS P2A 930530110000032,Assets:Current Assets:Account Receivables:Sundry Debtors:New Uttam Cloth Store
+IMPS P2A 1211102000001991,Assets:Current Assets:Account Receivables:Sundry Debtors:Manindra Singh Bhatia
+IMPS P2A 31471952408,Assets:Current Assets:Account Receivables:Sundry Debtors:Shubhank D Sharma
+IMPS P2A 6316101001943,Assets:Current Assets:Account Receivables:Sundry Debtors:Smt. Girija Jandhel
+IMPS P2A 0000001343,Assets:Current Assets:Account Receivables:Sundry Debtors:Amit Kumar Tamrakar
+IMPS P2A 930110100009693,Assets:Current Assets:Account Receivables:Sundry Debtors:Manilal Dewangan
+IMPS P2A 30982313842,Assets:Current Assets:Account Receivables:Sundry Debtors:Jeevan Lal Verma
+IMPS P2A 475202010026015,Assets:Current Assets:Account Receivables:Sundry Debtors:Milap Ram Verma
+IMPS P2A 549402010013416,Assets:Current Assets:Account Receivables:Sundry Debtors:Uttar Kumar Verma
+IMPS P2A 475202010015091,Assets:Current Assets:Account Receivables:Sundry Debtors:Rishi Kumar Tamrakar
+By Clg :000719           Outward Clearin,Assets:Current Assets:Account Receivables:Sundry Debtors:New Uttam Cloth Store
+IMPS P2A 60295091551,Assets:Current Assets:Account Receivables:Sundry Debtors:Lekhram Dewangan
+IMPS P2A 54870100002631,Assets:Current Assets:Account Receivables:Sundry Debtors:Chetan Kumar Verma
+IMPS P2A 917010022230740,Assets:Current Assets:Account Receivables:Sundry Debtors:Manoj Kumar Verma
+Transfer-ManojKumarVerma,Assets:Current Assets:Account Receivables:Sundry Debtors:Manoj Kumar Verma
+328.274 to 360.724,Assets:Current Assets:Savings Account:LVB-Saving
+IMPS P2A 475202010027556,Assets:Current Assets:Account Receivables:Sundry Debtors:Tuman Verma

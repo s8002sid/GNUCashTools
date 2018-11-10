@@ -62,7 +62,10 @@ class UserSetting(object):
             self.statementParser = GNUStatementParser();
             if (extension == 'xls'):
                 self.reader = ExcelReader();
-
+        elif ('LVBank' in accountName):
+            self.statementParser = LVBankStatementParser();
+            if (extension == 'xls'):
+                self.reader = ExcelReader();
 
 
     def CreatePathName(self):
@@ -159,6 +162,15 @@ class DiptiSetting(UserSetting):
             self.fullAccountPath = '';
             self.ttMapFName = 'TTMapHDFCSecDip.txt'
             self.atMapFName = 'ATMapHDFCSecDip.txt';
+        self.CreatePathName();
+
+class VFSetting(UserSetting):
+    def __init__(self, accountName, inputFile):
+        super(VFSetting,self).__init__(inputFile, accountName, 'VF');
+        if (accountName == 'LVBank'):
+            self.fullAccountPath = 'Assets:Current Assets:Current Account:LVB-Current';
+            self.ttMapFName = 'TTLVBankVF.txt';
+            self.atMapFName = 'ATMapBankVF.txt';
         self.CreatePathName();
 
 class GNUCashSetting(UserSetting):

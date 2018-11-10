@@ -25,7 +25,9 @@ class Utility:
 
     @staticmethod
     def GetDate(dateStr):
+        if ("/" in dateStr):
+            return dateStr.replace("/", "-");
         startDate=datetime(1899,12,30);
         dateDelta = timedelta(int(dateStr.split('.')[0]));
         date = startDate + dateDelta;
-        return date.strftime('%d-%m-%Y');
+        return date.strftime('%m-%d-%Y');#We will consider final emitted date in fromat dd-mm-yyyy

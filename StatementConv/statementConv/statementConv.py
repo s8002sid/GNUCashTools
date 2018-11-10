@@ -6,6 +6,10 @@ import re;
 from Utility.Utility import Utility;
 from TransactionReader import *;
 
+#To use this scripts install python 2.7
+#Install following modules: emun34, xlrd, python-lambda
+#These scripts are not compitable with python 3.x
+
 def ReadTransaction(set):
     transactions = set.reader.Read(set.inputFile);
     statement=Statement(transactions, set.statementParser, set.fullAccountPath, set.ttMapFName, set.atMapFName);
@@ -42,8 +46,8 @@ def WriteVRTransaction(set):
 #set = DadSetting('AllahabadBank', r'C:\Users\siddjain\Google Drive\Home\Share\Dilip-Share\Document\Account\Statement\Bank\2017-2018-04-08.xls');
 #set = DadSetting('AllahabadBank', r'C:\Users\siddjain\Google Drive\Home\Share\Dilip-Share\Document\Account\Statement\Bank\2017-2018-09-01.xls');
 #set = DadSetting('AllahabadBank', r'C:\Users\siddjain\Google Drive\Home\Share\Dilip-Share\Document\Account\Statement\Bank\2017-2018-02-03.xls');
-set = DiptiSetting('HDFCSec', r'C:\Users\siddjain\Google Drive\Home\Share\Dipti-Share\Document\Account\Statement\HDFCSec\ETFStatement2014-2015.xls');
-WriteVRTransaction(set);
+set = VFSetting('LVBank', r'C:\sj\GoogleDrive\Home\Share\Dilip-Share\VardhamanFinance\Document\Account\Bank\Book1.xls');
+WriteGNUCTransaction(r"output\WordStat.txt", set);
 #WriteGNUCTransaction(r"output\WordStat.txt", set);
 
 #set = DiptiSetting('HDFC', r'C:\Users\siddjain\Google Drive\Home\Share\Dipti-Share\Document\Account\Statement\Bank\2017-2018.xls');
