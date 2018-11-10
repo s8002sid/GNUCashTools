@@ -1,0 +1,80 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Options for saved report "My Balance Sheet", based on template "c4173ac99b2b448289bf4d11c731af13"
+(let ()
+  (define (options-gen)
+    (let
+         (
+           (options (gnc:report-template-new-options/report-guid "c4173ac99b2b448289bf4d11c731af13" "Balance Sheet"))
+           (new-embedded-report-ids '()) ;; only used with Multicolumn View Reports
+         )
+; Section: Display
+
+
+; Section: Commodities
+
+(let ((option (gnc:lookup-option options
+                                 "Commodities"
+                                 "Report's currency")))
+  ((lambda (option) (if option ((gnc:option-setter option) "INR"))) option))
+
+
+; Section: Accounts
+
+
+; Section: General
+
+
+      options
+    )
+  )
+  (gnc:define-report 
+    'version 1
+    'name "My Balance Sheet"
+    'report-guid "8cfae009fd2f4807a9a380542d90ecf6"
+    'parent-type "c4173ac99b2b448289bf4d11c731af13"
+    'options-generator options-gen
+    'menu-path (list gnc:menuname-custom)
+    'renderer (gnc:report-template-renderer/report-guid "c4173ac99b2b448289bf4d11c731af13" "Balance Sheet")
+  )
+)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Options for saved report "Balance Sheet", based on template "c4173ac99b2b448289bf4d11c731af13"
+(let ()
+  (define (options-gen)
+    (let
+         (
+           (options (gnc:report-template-new-options/report-guid "c4173ac99b2b448289bf4d11c731af13" "Balance Sheet"))
+           (new-embedded-report-ids '()) ;; only used with Multicolumn View Reports
+         )
+; Section: Display
+
+
+; Section: Commodities
+
+(let ((option (gnc:lookup-option options
+                                 "Commodities"
+                                 "Report's currency")))
+  ((lambda (option) (if option ((gnc:option-setter option) "INR"))) option))
+
+
+; Section: Accounts
+
+
+; Section: General
+
+
+      options
+    )
+  )
+  (gnc:define-report 
+    'version 1
+    'name "Balance Sheet"
+    'report-guid "e1c6a4b0a3c84beeb957e42bfcd74f87"
+    'parent-type "c4173ac99b2b448289bf4d11c731af13"
+    'options-generator options-gen
+    'menu-path (list gnc:menuname-custom)
+    'renderer (gnc:report-template-renderer/report-guid "c4173ac99b2b448289bf4d11c731af13" "Balance Sheet")
+  )
+)
+
