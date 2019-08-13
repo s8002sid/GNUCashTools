@@ -1,4 +1,4 @@
-import re;
+﻿import re;
 class StatementAnalyzer(object):
     def __init__(self):
         self.wordDict = {};
@@ -23,7 +23,7 @@ class StatementAnalyzer(object):
         for i in range(len(sortedList)):
             x = sortedList[i][0] + ',' + str(sortedList[i][1]);
             toWrite.append(x);
-        fob = open(fileName, "w");
+        fob = open(fileName, "a+");
         fob.write('\n'.join(toWrite));
         fob.close();
         

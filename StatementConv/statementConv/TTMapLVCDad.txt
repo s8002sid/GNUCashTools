@@ -1,0 +1,19 @@
+328.274,Assets:Current Assets:Bank Account:LVB - Saving
+IMPS CHARGES,Expenses:Indirect Expenses:Bank Charges
+ToCurrent,Assets:Current Assets:Bank Account:LVB - Saving
+To Current,Assets:Current Assets:Bank Account:LVB - Saving
+To-Current,Assets:Current Assets:Bank Account:LVB - Saving
+ToSaving,Assets:Current Assets:Bank Account:LVB - Saving
+ToCrownAccount,Assets:Current Assets:Bank Account:LVB - Saving
+0232328000000274,Assets:Current Assets:Bank Account:LVB - Saving
+IMPS P2A,Assets:Current Assets:Sundry Debtors:Account Receivables
+By Clg,Assets:Current Assets:Sundry Debtors:Account Receivables
+NEFT,Assets:Current Assets:Sundry Debtors:Account Receivables
+HDFC fund transfer,Assets:Current Assets:Bank Account:LVB - Saving
+O/W CLEARING,Assets:Current Assets:Sundry Debtors:Account Receivables
+Cash Deposit,Assets:Current Assets:Cash-In-Hand:Cash
+To Clg,Assets:Current Assets:Sundry Debtors:Account Receivables
+CHG REV,Expenses:Indirect Expenses:Bank Charges
+Dilip Kumar jain-LVBN18144056977,Expenses:Business Expenses:Others
+Funds Trf from XX0274,Assets:Current Assets:Bank Account:LVB - Saving
+,Assets:Current Assets:Sundry Debtors:Account Receivables

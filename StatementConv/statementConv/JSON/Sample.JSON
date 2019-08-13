@@ -1,0 +1,34 @@
+{
+	"statements": [
+	{
+		"excelPath": "C:\\sj\\GoogleDrive\\Home\\Documents\\Accounts\\Statement\\MutualFund\\NOB_201710.xls",
+		"type": "MF",
+		"name": "Siddharth",
+		"generate": ["gnuCash", "vrFormat"]
+	},
+	{
+		"excelPath": "C:\\sj\\GoogleDrive\\Home\\Documents\\Accounts\\Statement\\MutualFund\\NOB_201711.xls",
+		"type": "MF",
+		"name": "Siddharth",
+		"generate": ["gnuCash", "vrFormat"]
+	},
+	{
+		"excelPath": "C:\\sj\\GoogleDrive\\Home\\Documents\\Accounts\\Statement\\MutualFund\\NOB_201712.xls",
+		"type": "MF",
+		"name": "Siddharth",
+		"generate": ["gnuCash", "vrFormat"]
+	},
+	{
+		"excelPath": "C:\\sj\\GoogleDrive\\Home\\Documents\\Accounts\\Statement\\MutualFund\\SIP_201712.xls",
+		"type": "MF",
+		"name": "Siddharth",
+		"generate": ["gnuCash", "vrFormat"]
+	},
+	{
+		"excelPath": "C:\\sj\\GoogleDrive\\Home\\Documents\\Accounts\\Statement\\MutualFund\\SIP_201801.xls",
+		"type": "MF",
+		"name": "Siddharth",
+		"generate": ["gnuCash", "vrFormat"]
+	}
+	]
+}

@@ -20,11 +20,20 @@ class Statement:
         Transaction.PopulateMap(ttMapFName, atMapFName);
         for i in range(len(transactions)):
             transaction = parser.Parse(transactions[i], i);
+
             if (transaction is None):
                 continue;
-            if (transaction.value[TTEnum.Account] == ''):
-                transaction.value[TTEnum.Account] = statementTransType;
-            self.transactions.append(transaction);
+            transList = [];
+            transType = type(transaction);
+            if (type(transaction) is not list):
+                transList.append(transaction);
+            else:
+                transList = transaction;
+            for t in transList:
+                if (t.value[TTEnum.Account] == ''):
+                    t.value[TTEnum.Account] = statementTransType;
+                self.transactions.append(t);
+
             self.statementTransType = statementTransType;
 
     def WriteWordStat(self, fileName):

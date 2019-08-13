@@ -1,5 +1,20 @@
-Franklin India Prima Plus Fund - Growth,Assets:Investment:Dip-MU:Franklin India Prima Plus - G
-HDFC Balanced Fund - Growth,Assets:Investment:Dip-MU:HDFC Balanced - G
-ICICI Prudential Flexible Income Plan - Growth,Assets:Investment:Dip-MU:CICI Pru Flexi Income - G
-ICICI Prudential Value Discovery Fund - Growth,Assets:Investment:Dip-MU:ICICI Pru Value Descovery - G
-SBI Blue Chip Fund - Regular Plan - Growth,Assets:Investment:Dip-MU:SBI Blue Chip - G
+Aditya Birla Sun Life Low Duration Fund - Growth,Aditya Birla Sun Life Low Duration Fund - Growth
+Aditya Birla Sun Life Pure Value Fund - Growth,Aditya Birla Sun Life Pure Value Fund - Growth
+Franklin India Equity Fund - Growth,Franklin India Equity Fund - Growth
+HDFC Balanced Fund - Growth,HDFC Balanced Fund - Growth
+HDFC Hybrid Equity Fund - Growth,HDFC Hybrid Equity Fund - Growth
+ICICI Prudential Savings Fund - Growth,ICICI Prudential Savings Fund - Growth
+ICICI Prudential Value Discovery Fund - Growth,ICICI Prudential Value Discovery Fund - Growth
+SBI Blue Chip Fund - Regular Plan - Growth,SBI Blue Chip Fund - Regular Plan - Growth
+Aditya Birla Sun Life Frontline Equity Fund -Growth-Direct Plan,Assets:Investment:Mutual Fund:Aditya BSL Frontline Equity - DG
+Axis Long Term Equity Fund - Direct Growth,Assets:Investment:Mutual Fund:Axis Long Term Equity - DG
+Franklin India PRIMA FUND - Direct-GROWTH,Assets:Investment:Mutual Fund:Franklin India Prima - DG
+Franklin India Ultra Short Bond Fund Super Institutional Plan - Direct-GROWTH,Assets:Investment:Mutual Fund:Franklin India Ultra Short Bond Fund Super Institutional Plan - DG
+HDFC Balanced Fund - Direct Plan - Growth Option,Assets:Investment:Mutual Fund:HDFC Balanced Fund - DG
+HDFC Hybrid Equity Fund - Direct Plan - Growth Option,Assets:Investment:Mutual Fund:HDFC Hybrid Equity Fund - DG
+HDFC Mid-Cap Opportunities Fund - Direct Plan - Growth Option,Assets:Investment:Mutual Fund:HDFC Mid-Cap Opportunities - DG
+HDFC Small Cap Fund-Direct-Growth,Assets:Investment:Mutual Fund:HDFC Small Cap - DG
+L&T Emerging Businesses Fund Direct Growth,Assets:Investment:Mutual Fund:L&T Emerging Businesses - DG
+SBI Blue Chip Fund-Direct-Growth,Assets:Investment:Mutual Fund:SBI Blue Chip - DG
+SBI Magnum Ultra Short Duration Fund - Direct Plan - Growth,Assets:Investment:Mutual Fund:SBI Magnum Ultra Short Duration - DG
+SBI Small Cap Fund-Direct-Growth,Assets:Investment:Mutual Fund:SBI Small Cap - DG

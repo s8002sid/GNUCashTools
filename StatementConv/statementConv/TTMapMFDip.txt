@@ -1,1 +1,1 @@
- ,Liabilities:Capital Account:MU
+,Assets:Current Assets:Savings Account:HDFC 2414

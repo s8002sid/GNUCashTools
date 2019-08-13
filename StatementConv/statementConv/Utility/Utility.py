@@ -19,7 +19,7 @@ class Utility:
     @staticmethod
     def WriteStatement(statementExporter, outputFile):
         strStatement = statementExporter.ToString();
-        fob = open(outputFile, "w");
+        fob = open(outputFile, "a+");
         fob.write("\n".join(strStatement));
         fob.close();
 

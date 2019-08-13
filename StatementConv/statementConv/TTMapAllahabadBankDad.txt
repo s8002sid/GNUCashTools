@@ -1,25 +1,16 @@
-VARDHAMAN TEXTILES,Assets:Current Assets:Loans And Advances:Vardhaman Textiles Durg
-LIC,Assets:Current Assets:LIC
-Chhattisgarh State Power Distri,Assets:Current Assets:Loans And Advances:Vardhaman Textiles Durg
-BSNL,Assets:Current Assets:Loans And Advances:Vardhaman Textiles Durg
-MUNICIPAL CORPORAT,Expenses:Indirect Expenses:Property Tax
-814081957370,Expenses:Indirect Expenses:Miscelenous
-TARA DEVI,Liabilities:Loans (Liability):Unsecured Loans:Tara Bai Jain
-SONI DEVI,Liabilities:Loans (Liability):Unsecured Loans:Soni Bai Jain
-BY CLEARING / CHEQUE ~ 88945 ~ PANDRI BRA,Expenses:Indirect Expenses:Miscelenous
-BY CLEARING / CHEQUE ~ 837819 ~ IDBI,Assets:Current Assets:Saving Account:IDBI Bank 136136
-BY CLEARING / CHEQUE,Income:Indirect Incomes:SHOP RENT
-SiddharthJainHDFC,Expenses:Indirect Expenses:Miscelenous
-ShreyanshJainHDFC,Expenses:Indirect Expenses:Miscelenous
-purches,Expenses:Indirect Expenses:Miscelenous
-SHATRUNJAY ENTE,Imbalance-INR
+MF Utilities,Assets:Investments
+CASH CHEQUE,Assets:Current Assets:Cash-In-Hand:Cash
+VARDHAMAN FINANCE,Assets:Current Assets:Bank Account:LVB - Current
 CREDIT INTEREST,Income:Indirect Incomes:BANK INT.
-MF Utilities Lump,Assets:Investments
-TO TRANSFER ~  ~ 005960,Assets:Current Assets:LIC
-TO TRANSFER ~  ~ 030000,Income:Indirect Incomes:SHOP RENT
-TO TRANSFER ~  ~ GST,Assets:Current Assets:Loans And Advances:Vardhaman Textiles Durg
-BY TRANSFER ~  ~ INCOME TAX DEPARTMEN,Assets:Current Assets:INCOME TAX REFUND
-INW CLG CHQ PAID ~ 253085 ~ 25308531DILIP,Imbalance-INR
-INW CLG CHQ PAID ~ 253086 ~ 25308631DILIP JAIN,Imbalance-INR
-CASH DEPOSIT,Assets:Current Assets:Cash-In-Hand:Cash
-HRIYAAN JAIN U G SHREYA,Assets:Current Assets:Loans And Advances:Hriyaan Jain
+TO TRANSFER ~  ~ NEFT-HDFC-Vardhaman Textile 04-ALLAH18156278717,Expenses:Indirect Expenses:Miscelenous
+BY TRANSFER ~  ~ NEFT-SBIN-INCOME TAX DEPARTM-SBIN918232658229,Income:Indirect Incomes:INCOME TAX REFUND
+LIC,Expenses:Indirect Expenses:LIC
+Chandra Devi Jain,Liabilities:Loans (Liability):Unsecured Loans:Chandra Devi Jain
+Shreyansh Jain,Liabilities:Loans (Liability):Unsecured Loans:Shreyansh Jain
+Siddharth Kumar Jain,Liabilities:Loans (Liability):Unsecured Loans:Siddharth Kumar Jain
+INW CLG CHQ PAID ~ 253093 ~ 25309331DURG MUNICIPAL CORPORAT,Expenses:Indirect Expenses:Property Tax
+814081957370,Income:Indirect Incomes:Gas Subsidy
+TO TRANSFER ~  ~ 020000+000000000000+    000000000000+    000000000,Assets:Current Assets:Loans And Advances:Vardhaman Textiles Durg
+TO TRANSFER ~  ~ 030000+000000000000+    000000000000+    000000000,Assets:Current Assets:Loans And Advances:Vardhaman Textiles Durg
+paytm,Expenses:Indirect Expenses:Miscelenous
+BY CLEARING / CHEQUE ~ 38121 ~,Income:Indirect Incomes:Suspense

@@ -86,3 +86,8 @@ class FIndiaExcelReader(ExcelReader):
         ExcelReader.__init__(self);
         self.transactionStartPoint = 2;
         self.transactionEndPoint = 0;
+class LVBankExcelReader(ExcelReader):
+    def __init__(self):
+        ExcelReader.__init__(self);
+        self.transactionStartPoint = 6;
+        self.transactionEndPoint = 7;

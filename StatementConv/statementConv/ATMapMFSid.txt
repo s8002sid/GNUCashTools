@@ -1,7 +1,19 @@
 Aditya Birla Sun Life Top 100 Fund,Assets:Investment:Mutual Fund:Aditya Birla Sun Life Top 100 - DG
 ICICI Prudential Savings,Assets:Investment:Mutual Fund:ICICI Prudential Savings - DG
 SBI Treasury Advantage,Assets:Investment:Mutual Fund:SBI Treasury Advantage - DG
+SBI Banking & PSU,Assets:Investment:Mutual Fund:SBI Treasury Advantage - DG
 SBI Blue Chip,Assets:Investment:Mutual Fund:SBI Blue Chip - DG
 SBI Magnum MidCap,Assets:Investment:Mutual Fund:SBI Magnum MidCap - DG
 Franklin India Ultra Short Bond Fund Super Institutional Plan,Assets:Investment:Mutual Fund:Franklin India Ultra Short Bond - Super Inst - DG
 Motilal Oswal Multicap 35 Fund,Assets:Investment:Mutual Fund:Motilal Oswal Multicap 35 - DG
+Aditya Birla Sun Life Frontline Equity Fund,Assets:Investment:Mutual Fund:Aditya Birla Sun Life Frontline Equity Fund
+L&T Midcap Fund,Assets:Investment:Mutual Fund:L&T Midcap Fund
+HDFC Mid-Cap Opportunities Fund,Assets:Investment:Mutual Fund:HDFC Mid-Cap Opportunities Fund
+HDFC Small Cap Fund,Assets:Investment:Mutual Fund:HDFC Small Cap Fund
+Franklin India BLUECHIP FUND,Assets:Investment:Mutual Fund:Franklin India BLUECHIP FUND
+Franklin India PRIMA FUND,Assets:Investment:Mutual Fund:Franklin India PRIMA FUND
+Aditya Birla Sun Life Focused Equity Fund,Assets:Investment:Mutual Fund:Aditya Birla Sun Life Focused Equity Fund
+L&T Emerging Businesses Fund,Assets:Investment:Mutual Fund:L&T Emerging Businesses Fund
+L&T Large and MidCap Fund,Assets:Investment:Mutual Fund:L&T Large and MidCap Fund
+SBI Small Cap,Assets:Investment:Mutual Fund:SBI Small Cap - DG
+SBI Magnum Ultra Short Duration Fund - Direct Plan - Growth,Assets:Investment:Mutual Fund:SBI Magnum Ultra Short Duration Direct-G

@@ -9,8 +9,9 @@ This file contain statement exporter functions.
 Base class of statement exporter.
 """
 class StatementExporter:
-    def __init__(self, statement):
+    def __init__(self, statement, writeHeader):
         self.statement = statement;
+        self.writeHeader = writeHeader;
 
     """
     Inheriting class must provide String list representation for exporting statement.
@@ -38,7 +39,10 @@ class SimpleStatementExporter(StatementExporter):
         return 1;
     def ToString(self):
         ToWrite=[];
-        ToWrite.append(self.WriteHeader());
+        if (self.writeHeader):
+            ToWrite.append(self.WriteHeader());
+        else:
+            ToWrite.append("");
         #Values
         for i in range(len(self.statement.transactions)):
             if (self.DoWriteIthTransaction(i) == 1):
@@ -73,15 +77,16 @@ class GNUCashStatement(StatementExporter):
         ToWrite = [];
         #Write Header
         x="";
-        x+= "Date,";
-        x+= "Description,";
-        x+= "Transaction Commodity,";
-        x+= "Account,";
-        x+= "Deposit,";
-        x+= "Withdrawal,";
-        x+= "Price,"
-        x+= "TransferAccount,"
-        x+= "Action"
+        if (self.writeHeader):
+            x+= "Date,";
+            x+= "Description,";
+            x+= "Transaction Commodity,";
+            x+= "Account,";
+            x+= "Deposit,";
+            x+= "Withdrawal,";
+            x+= "Price,"
+            x+= "TransferAccount,"
+            x+= "Action"
         ToWrite.append(x);
         for i in range(len(self.statement.transactions)):
             value = self.statement.transactions[i].value;
@@ -104,10 +109,11 @@ class ValueResearchStatement(StatementExporter):
     def ToString(self):
         ToWrite = [];
         x="";
-        x+= "Date of transaction,";
-        x+= "Fund name,";
-        x+= "Number of units transacted,";
-        x+= "Transaction type"
+        if (self.writeHeader):
+            x+= "Date of transaction,";
+            x+= "Fund name,";
+            x+= "Number of units transacted,";
+            x+= "Transaction type"
         ToWrite.append(x);
         for i in range(len(self.statement.transactions)):
             value = self.statement.transactions[i].value;

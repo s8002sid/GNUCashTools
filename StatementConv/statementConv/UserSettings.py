@@ -63,9 +63,17 @@ class UserSetting(object):
             if (extension == 'xls'):
                 self.reader = ExcelReader();
         elif ('LVBank' in accountName):
-            self.statementParser = LVBankStatementParser();
+            self.statementParser = LVBankStatementParser1();
             if (extension == 'xls'):
                 self.reader = ExcelReader();
+        elif ('LVSaving' in accountName):
+            self.statementParser = LVBankStatementParser1();
+            if (extension == 'xls'):
+                self.reader = LVBankExcelReader();
+        elif ('LVCurrent' in accountName):
+            self.statementParser = LVBankStatementParser1();
+            if (extension == 'xls'):
+                self.reader = LVBankExcelReader();
 
 
     def CreatePathName(self):
@@ -99,9 +107,21 @@ class DadSetting(UserSetting):
         if(accountName == 'AllahabadBank'):
             self.fullAccountPath = 'Assets:Current Assets:Saving Account:Allahabad Bank Durg 64099';
             self.ttMapFName = 'TTMapAllahabadBankDad.txt'
-        if(accountName == 'IDBI'):
+        elif(accountName == 'IDBI'):
             self.fullAccountPath = 'Assets:Current Assets:Saving Account:IDBI Bank 136136';
             self.ttMapFName = 'TTMapIDBIDad.txt'
+        elif(accountName == 'MF'):
+            self.fullAccountPath = '';
+            self.ttMapFName = 'TTMapMFDad.txt'
+            self.atMapFName = 'ATMapMFDad.txt'
+        elif (accountName == 'LVSaving'):
+            self.fullAccountPath = 'Assets:Current Assets:Bank Account:LVB - Saving';
+            self.ttMapFName = 'TTMapLVSDad.txt';
+            self.atMapFName = 'ATMapLVSDad.txt';
+        elif (accountName == 'LVCurrent'):
+            self.fullAccountPath = 'Assets:Current Assets:Bank Account:LVB - Current';
+            self.ttMapFName = 'TTMapLVCDad.txt';
+            self.atMapFName = 'ATMapLVCDad.txt';
         self.CreatePathName();
     
 class ShreyanshSetting(UserSetting):
@@ -122,8 +142,8 @@ class ShreyanshSetting(UserSetting):
             self.ttMapFName = 'TTMapBOBShr.txt'
         elif(accountName == 'MF'):
             self.fullAccountPath = '';
-            self.ttMapFName = 'TTMapMFSid.txt'
-            self.atMapFName = 'ATMapMFSid.txt'
+            self.ttMapFName = 'TTMapMFShr.txt'
+            self.atMapFName = 'ATMapMFShr.txt'
         self.CreatePathName();
 
 class MomSetting(UserSetting):
@@ -148,7 +168,7 @@ class ShwetaSetting(UserSetting):
 class DiptiSetting(UserSetting):
     def __init__(self, accountName, inputFile):
         super(DiptiSetting,self).__init__(inputFile, accountName, 'Dip');
-        if (accountName == 'FINDIA'):
+        if (accountName == 'FINDIA' or accountName == 'MF' ):
             self.fullAccountPath = '';
             self.ttMapFName = 'TTMapMFDip.txt';
             self.atMapFName = 'ATMapMFDip.txt';

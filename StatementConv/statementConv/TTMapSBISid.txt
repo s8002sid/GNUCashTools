@@ -1,17 +1,10 @@
-BY TRANSFER-INB IMPS,Imbalance-INR
-ticket,Liabilities:Capital Account:Siddharth Kumar Jain
-railway,Liabilities:Capital Account:Siddharth Kumar Jain
-irctc,Liabilities:Capital Account:Siddharth Kumar Jain
-atm,Liabilities:Capital Account:Siddharth Kumar Jain
-okaxis,Liabilities:Capital Account:Siddharth Kumar Jain
-Refund,Liabilities:Capital Account:Siddharth Kumar Jain
+ticket,Expenses:Other Expenses:Transport
+railway,Expenses:Other Expenses:Transport
+irctc,Expenses:Other Expenses:Transport
+atm,Assets:Cash-in-hand
+okaxis,Expenses:Other Expenses:Transport
+Refund,Expenses:Other Expenses:Miscelenous
 interest,Income:Indirect Income:Bank Interest
-myntra,Liabilities:Capital Account:Siddharth Kumar Jain
-cashback,Liabilities:Capital Account:Siddharth Kumar Jain
-amazon,Liabilities:Capital Account:Siddharth Kumar Jain
-ANI Technologies Private,Liabilities:Capital Account:Siddharth Kumar Jain
-INB Avenues India,Liabilities:Capital Account:Siddharth Kumar Jain
-Non-Maintenance Charge,Liabilities:Capital Account:Siddharth Kumar Jain
-TRANSFER FROM 3199681044308,Imbalance-INR
-xx4960,Imbalance-INR
-N020180456910722,Imbalance-INR
+myntra,Expenses:Other Expenses:cloth
+cashback,Expenses:Other Expenses:Miscelenous
+amazon,Expenses:Other Expenses:Amazon

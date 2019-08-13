@@ -36,6 +36,7 @@ class Transaction:
             if ((selfVal == '' and transTypeMap[i][0].lower() in matchWith.lower()) or
                 transTypeMap[i][0].lower() in selfVal.lower()):
                 retVal = transTypeMap[i][1];
+                break;
         return retVal;
 
     """
@@ -54,7 +55,7 @@ class Transaction:
         return lines;
     @staticmethod
     def PopulateMap(ttMapFName, atMapFName):
-        if (ttMapFName.strip() != '' and len(Transaction.transTypeMap) == 0):
+        if (type(Transaction.transTypeMap) != type (None) and ttMapFName.strip() != '' and len(Transaction.transTypeMap) == 0):
             Transaction.transTypeMap = Transaction.Parse(ttMapFName);
         if (atMapFName.strip() != '' and len(Transaction.accountTypeMap) == 0):
             Transaction.accountTypeMap = Transaction.Parse(atMapFName);
@@ -68,7 +69,7 @@ class Transaction:
         self.value[TTEnum.SNO] = sno;
         self.value[TTEnum.Date] = date.replace('/','-');
         self.value[TTEnum.TransType] = transtype;
-        self.value[TTEnum.Narration] = narration;
+        self.value[TTEnum.Narration] = narration.replace(',', ' ');
         self.value[TTEnum.Refno] = refno;
         self.value[TTEnum.ValueDate] = valuedate.replace('/', '-');
         self.value[TTEnum.Withdrawal] = withdrawal;

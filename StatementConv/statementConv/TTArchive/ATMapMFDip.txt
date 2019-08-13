@@ -1,0 +1,5 @@
+Franklin India Prima Plus Fund - Growth,Assets:Investment:Dip-MU:Franklin India Prima Plus - G
+HDFC Balanced Fund - Growth,Assets:Investment:Dip-MU:HDFC Balanced - G
+ICICI Prudential Flexible Income Plan - Growth,Assets:Investment:Dip-MU:CICI Pru Flexi Income - G
+ICICI Prudential Value Discovery Fund - Growth,Assets:Investment:Dip-MU:ICICI Pru Value Descovery - G
+SBI Blue Chip Fund - Regular Plan - Growth,Assets:Investment:Dip-MU:SBI Blue Chip - G

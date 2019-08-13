@@ -1,0 +1,9 @@
+Credit Interest Capitalised,Income:Indirect Incomes:BANK INT.
+1343,Assets:Current Assets:Bank Account:LVB - Current
+VARDHAMAN,Assets:Current Assets:Loans And Advances:Vardhaman Textiles Durg
+ToCurrent,Assets:Current Assets:Bank Account:LVB - Current
+HDFC fund transfer,Assets:Current Assets:Bank Account:LVB - Current
+To Dilip Jain-0232328000000307,Liabilities:Loans (Liability):Unsecured Loans:Chandra Devi Jain
+LOAN-0232328000000307,Liabilities:Loans (Liability):Unsecured Loans:Chandra Devi Jain
+Transfer,Assets:Current Assets:Bank Account:LVB - Current
+328.274 to 360.724,Assets:Current Assets:Bank Account:LVB - Current

@@ -8,9 +8,3 @@ MF Utilities,Assets:Investments
 UTI MUTU,Assets:Investments
 SMS_CHARGES,Expenses:Indirect Expenses:Bank Charges
 BSNL,Expenses:Indirect Expenses:Miscelenous
-CBDT,Assets:Current Assets:Loans And Advances:Vardhaman Textiles Durg
-RPAY-POS,Expenses:Indirect Expenses:Miscelenous
-TEMPLETON,Assets:Investments
-RELIANCE,Assets:Investments
-MFUTIL,Assets:Investments
-LIC,Expenses:Indirect Expenses:LIC
