@@ -67,7 +67,7 @@ def GenerateUsingJson(jsonFilePath):
             settingFunc = DadSetting;
         elif (name == 'VardhamanFinance'):
             settingFunc = VFSetting;
-        elif (name == 'Shreyansh'):
+        elif (name == 'Bro'):
             settingFunc = ShreyanshSetting;
         set = settingFunc(type, excelPath);
         wordStatFile = r'output\WordStat' + name + '.txt';
@@ -88,7 +88,7 @@ def GenerateUsingJson(jsonFilePath):
         if ('vrFormat' in genFormat):
             WriteVRTransaction(set, writeHeader);
 #jsonFilePath=r'C:\sj\GoogleDrive\Home\Share\Dilip-Share\Document\Account\Statement\MFU\JSON\Transaction.JSON';
-jsonFilePath=r'C:\sj\GoogleDrive\Home\Share\Dilip-Share\Document\Account\Statement\Transaction.JSON'
+jsonFilePath=r'TTMap\output.json'
 GenerateUsingJson(jsonFilePath);
 #Dipti SBI Account Generator
 #set = DiptiSetting('SBI', r'C:\Users\siddjain\Google Drive\Home\Share\Dipti-Share\Document\Account\Statement\Bank\SBI_2017-2018.xls');

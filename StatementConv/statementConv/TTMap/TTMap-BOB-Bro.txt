@@ -1,0 +1,8 @@
+MF Utilities,Assets:Investments:Mutual Fund
+BILLDESK,Assets:Investments:Mutual Fund
+EBANK:124588060/02029760712201919799/CBDT,Expenses:Direct Expenses:IncomeTax
+Int.Pd,Income:Indirect Incomes:BANK INT.
+-SHREYANSH JAIN,Assets:Current Assets:Savings Account:Laxhmi Vilas 0319
+BY INST 3 : MICR CLG (CTS),Assets:Current Assets:Savings Account:Laxhmi Vilas 0319
+-SHRYANSH JAIN,Assets:Current Assets:Savings Account:HDFC BANK 50100061339771
+IMPS/P2A/934512656862/XXXXXXXXXX2495/v9xBSjjMZ6ok,Expenses:Direct Expenses:Miscelenous

@@ -1,0 +1,38 @@
+PAYTM,Expenses:Direct Expenses:General
+HISAB,Expenses:Direct Expenses:General
+POS,Expenses:Direct Expenses:General
+ATW-,Assets:Cash In Hand:Cash
+ATM,Assets:Cash In Hand:Cash
+NWD-,Assets:Cash In Hand:Cash
+CASH DEP,Assets:Cash In Hand:Cash
+IB BILLPAY,Expenses:Direct Expenses:General
+NEFT CR-,Expenses:Direct Expenses:General
+NEFT DR-,Expenses:Direct Expenses:General
+IMPS-,Expenses:Direct Expenses:General
+IB FUNDS TRANSFER,Expenses:Direct Expenses:General
+UPI-,Expenses:Direct Expenses:General
+irctc,Expenses:Direct Expenses:Travel
+Rent,Expenses:Direct Expenses:Rent
+MOBIKWIK,Expenses:Direct Expenses:General
+VODAFONE,Expenses:Direct Expenses:Mobile
+TERM DEBIT CARD ADJ,Expenses:Direct Expenses:Bank Charges
+INTEREST,Income:Interest Income:Savings Interest
+EAW-,Assets:Cash In Hand:Cash
+FD BOOKED,Assets:Investment:FD HDFC
+PRIN AND INT AUTO,Assets:Investment:FD HDFC
+FD BOOKED,Assets:Investment:FD HDFC
+TECHWEALTHINDIAFINAN,Expenses:Direct Expenses:General
+FUEL SURCHG,Expenses:Direct Expenses:General
+RAZPFSNECOMMERCEVENT,Expenses:Direct Expenses:General
+BOWLINGDIPTI,Expenses:Direct Expenses:General
+-TPT-,Expenses:Direct Expenses:General
+TECHMYNT,Expenses:Direct Expenses:General
+RAZPSPECTRA,Expenses:Direct Expenses:General
+IB SS FUNDS TRANSFER,Assets:Investment:PPF
+IMPS P2P,Expenses:Direct Expenses:General
+BLPPB0295M,Income:ITR
+CCALITTLEAPPIN,Expenses:Direct Expenses:General
+MYNTRA,Expenses:Direct Expenses:General
+FLIPKART,Expenses:Direct Expenses:General
+PPF000022391DIPTI,Assets:Investment:PPF
+DIPTIASHOKBHANSALIXXXXXXXXXXXXXXXXXXXXXX,Income:Salary

@@ -29,10 +29,11 @@ class ExcelReader(TransactionReader):
             transaction = [];
             for col in range(wsheet.ncols):
                 text = wsheet.cell(row, col).value;
-                if (type(text) is unicode):
-                    text = unicodedata.normalize('NFKD', text).encode('ascii','ignore');
+                #if (type(text) is unicode):
                 if (type(text) is float):
                     text = str(text);
+                #else:
+                #    text = unicodedata.normalize('NFKD', text).encode('ascii','ignore');
                 transaction.append(text);
             transactions.append(transaction);
             
@@ -79,7 +80,7 @@ class IDBIExcelReader(ExcelReader):
 class BOBExcelReader(ExcelReader):
     def __init__(self):
         ExcelReader.__init__(self);
-        self.transactionStartPoint = 15;
+        self.transactionStartPoint = 16;
         self.transactionEndPoint = 3;
 class FIndiaExcelReader(ExcelReader):
     def __init__(self):

@@ -1,0 +1,12 @@
+PROGRAMMANAGEMENT FEE,Expenses:Indirect Expenses:BANK CHARGES
+CREDIT INTEREST CAPITALISED,Income:Indirect Income:BANK Interest
+PAYU,Expenses:Indirect Expenses:Miscellalenous
+BOOKMYSHOW,Expenses:Indirect Expenses:Miscellalenous
+PAYTM,Expenses:Indirect Expenses:Miscellalenous
+BSNLSHOP,Assets:Current Assets:Loans & Advances (Assets):Dilip Kumar Jain
+BSNLHOME,Assets:Current Assets:Loans & Advances (Assets):Dilip Kumar Jain
+RELIANCEJIOINF,Expenses:Indirect Expenses:Miscellalenous
+DEPOSITORY CHARGES,Expenses:Indirect Expenses:BANK CHARGES
+NWD-,Assets:Current Assets:Cash-in-hand:Cash
+BILLDKASSOCIATIONOFM,Expenses:Indirect Expenses:Miscellalenous
+BILLDKCHHATTISGARHST,Expenses:Indirect Expenses:Miscellalenous

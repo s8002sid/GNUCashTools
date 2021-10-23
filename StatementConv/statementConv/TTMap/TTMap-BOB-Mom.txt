@@ -1,0 +1,18 @@
+Int.,Income:Indirect Income:BANK Int
+SMS Alert charges,Expenses:Indirect Expense:Bank Carges
+BY CASH,Assets:Current Assets:Cash-In-hand:Cash
+VARDHAMAN TEXTILES,Assets:Current Assets:Loans & Advances (Assets):Vardhaman Textile Durg
+7:MICR INWD CLG (CTS),Assets:Current Assets:Loans & Advances (Assets):Vardhaman Textile Durg
+RETURNED:7:PRESENT WITH DOCUMENT,Assets:Current Assets:Loans & Advances (Assets):Vardhaman Textile Durg
+JINKUSHAL ENTERPRISES,Assets:Current Assets:Loans & Advances (Assets):JINKUSHAL ENTERPRISES
+BILLDESK,Expenses:Direct Expenses:Miscelenous
+LIC,Assets:Current Assets:LIC
+APBS,Expenses:Indirect Expense:Miscellaneous
+Franklin Templeton,Assets:Investments:Mutual Fund
+Locker Rent AU-123,Expenses:Indirect Expense:Bank Carges
+MF Utilities,Assets:Investments:Mutual Fund
+XXXXXXXXXX1446/toCHANDRADEV,Assets:Investments:Mutual Fund
+CMS-DD/TECHPROCESS,Expenses:Indirect Expense:Bank Carges
+CMS/TECHPRO/,Expenses:Indirect Expense:Bank Carges
+ACH Credit/ACGPJ6132N-AY2019-20/CE19116049245,Income:Indirect Income:ITR Refund
+-CHANDRA DEVI JAIN,Assets:Current Assets:Savings Account:LVB - Saving

@@ -1,0 +1,30 @@
+NEW KIDS,Assets:Current Assets:Savings Account:HDFC Bank 50100193708072
+RD INSTALLMENT,Assets:Current Assets:Deposits:HDFC RD
+RAILWAY,Expenses:Direct Expenses:Travel
+irctc,Expenses:Direct Expenses:Travel
+TERM DEBIT CARD ADJ,Expenses:Indirect Expenses:Bank Charges
+PAYTM,Expenses:Direct Expenses:Miscelenous
+CGTRANSPORT,Expenses:Direct Expenses:Miscelenous
+MF UTILITIES,Assets:Investments:Mutual Fund
+INTEREST,Income:Indirect Incomes:BANK INT.
+CASH DEP,Assets:Current Assets:Cash-In-Hand:Cash
+FD BOOKED,Assets:Current Assets:Deposits:HDFC FD
+MATURED RD,Assets:Current Assets:Deposits:HDFC RD
+PROGRAMMANAGEMENT,Expenses:Indirect Expenses:Bank Charges
+BAZAR INDIA,Expenses:Direct Expenses:Miscelenous
+DILIP KUMAR JAIN,Assets:Current Assets:Loans & Advances (Asset):DILIP KUMAR JAIN
+RETURN CHARGES,Expenses:Indirect Expenses:Bank Charges
+ROYALSUNDARAM,Expenses:Direct Expenses:Medical Insurance
+BILLDK,Expenses:Direct Expenses:Miscelenous
+AGLPJ9407H,Expenses:Direct Expenses:IncomeTax
+- CBDT TAX,Income:Indirect Incomes:Non Taxable:ITR Return
+TEMPLETON-INC FUND,Assets:Investments:Mutual Fund
+-FRANKLIN TEMPLETON MUTUAL FUND-,Assets:Investments:Mutual Fund
+-BARB0DURGXX-,Assets:Current Assets:Savings Account:Bank Of Baroda 02495
+POS 498792XXXXXX6117 JAIN VISHVA BHAR,Expenses:Direct Expenses:Miscelenous
+BSLMF-POOL RED-BIRLA MF-RED-DC-F NO,Assets:Investments:Mutual Fund
+BOOK MY SHOW POS DEBIT,Expenses:Direct Expenses:Miscelenous
+ACCOUNT VALIDATION BY ADITYA BIRLA MUTUAL FUND,Expenses:Direct Expenses:Miscelenous
+POS 498792XXXXXX6117 VARDHAMAN TEXTIL POS DEBIT,Expenses:Direct Expenses:Miscelenous
+-LAVB0000999-,Assets:Current Assets:Savings Account:Laxhmi Vilas 0319
+CHQ DEP - MICR 1 CLG - DURG,Assets:Current Assets:Savings Account:Laxhmi Vilas 0319

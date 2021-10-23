@@ -1,0 +1,8 @@
+Int.,Income:Indirect Incomes:BANK INT.
+SMS Alert charges,Expenses:Indirect Expenses:Bank Charges
+BY CASH,Assets:Current Assets:Cash-In-Hand:Cash
+VARDHAMAN TEXTILES,Assets:Current Assets:Loans & Advances (Asset):VARDHAMAN TEXTILE DURG
+irctc,Expenses:Direct Expenses:Travel
+MANDATE CHRGS,Expenses:Direct Expenses:Miscelenous
+GOYAL SALES,Assets:Current Assets:Loans & Advances (Asset):GOYAL
+BILLDESK,Expenses:Direct Expenses:Miscelenous

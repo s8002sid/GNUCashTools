@@ -1,0 +1,9 @@
+Interest Capitalized,Income:Indirect Income:BANK Int
+BARB0DURGXX,Assets:Current Assets:Savings Account:Bank of Baroda S/B 01446
+BILLDESK RLVR,Assets:Investments:Mutual Fund
+CASH DEP DURG,Assets:Current Assets:Cash-In-hand:Cash
+Chandra Devi Jain-HDFC0000915,Assets:Current Assets:Savings Account:H.D.F.C S/B 09151870000121
+0232328000000274,Assets:Current Assets:Loans & Advances (Assets):Dilip Kumar Jain
+0232360000001433,Assets:Current Assets:Savings Account:LVB - Current
+TILAK KUMAR DEWANGAN HUF,Assets:Current Assets:Loans & Advances (Assets):Tilak Kumar Dewangan
+IB - ToCurrent - 0232385000000102,Assets:Current Assets:Loans & Advances (Assets):Dilip Kumar Jain

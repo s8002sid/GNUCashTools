@@ -1,0 +1,3 @@
+CASH DEP DURG,Assets:Current Assets:Cash-In-Hand:Cash
+Cash Deposit,Assets:Current Assets:Cash-In-Hand:Cash
+0232328000000319 - SHREYANSH JAIN,Assets:Current Assets:Savings Account:Laxhmi Vilas 0319

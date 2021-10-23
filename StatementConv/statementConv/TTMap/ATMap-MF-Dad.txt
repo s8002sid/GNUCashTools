@@ -1,0 +1,17 @@
+Franklin India BLUECHIP FUND - Direct-GROWTH,Assets:Investments:Franklin India Blue Chip Fund - DG
+Franklin India PRIMA FUND - Direct-GROWTH,Assets:Investments:Franklin India Prima Fund - DG
+Franklin India Smaller Companies Fund - Direct-GROWTH,Assets:Investments:Franklin India Smaller Company Fund - DG
+Franklin India Ultra Short Bond Fund Super Institutional Plan,Assets:Investments:Franklin India Ultra Short Bond Fund Super Inst. Plan - DG
+HDFC Mid-Cap Opportunities Fund - Direct Plan - Growth,Assets:Investments:HDFC MidCap Oppturnity Fund - DG
+L&T India Value Fund Direct Plan - Growth,Assets:Investments:L&T India Value Fund - DG
+L&T Large & MidCap Fund - Growth,Assets:Investments:L&T India Large & MidCap Fund - G
+L&T Large and MidCap Fund - Growth,Assets:Investments:L&T India Large & MidCap Fund - G
+L&T Midcap Fund Direct Plan - Growth,Assets:Investments:L&T Mid Cap Fund - DG
+L&T Ultra Short Term Fund Direct Plan - Growth,Assets:Investments:L&T Ultra Short Term Fund - DG
+Reliance Tax Saver (ELSS) Fund - Growth,Assets:Investments:RELIANCE TAX SAVAR
+RELIANCE TAX SAVER (ELSS) FUND - GROWTH PLAN - GROWTH,Assets:Investments:RELIANCE TAX SAVAR
+SBI Blue Chip Fund-Direct-Growth,Assets:Investments:SBI BlueChip Fund - DG
+SBI Small Cap Fund-Direct-Growth,Assets:Investments:SBI Small Cap Fund - DG
+UTI Equity Fund - Regular Dividend,Assets:Investments:UTI Mutual Fund
+UTI-EQUITY FUND - DIVIDEND --(PAYOUT),Assets:Investments:UTI Mutual Fund
+BNP PARIBAS LONG TERM EQUITY FUND (ELSS) - GROWTH,Assets:Investments:BNP Paribas TAX Advantage Fund (ELSS) - G

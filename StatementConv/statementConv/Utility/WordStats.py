@@ -13,7 +13,7 @@ class StatementAnalyzer(object):
                 self.wordDict[words[i]] = 1;
     def GetSortedWordList(self):
         sortedList = [];
-        for key, value in sorted(self.wordDict.iteritems(), key=lambda (k,v): (v,k), reverse = True):
+        for key, value in sorted(self.wordDict.items(), key=lambda k_v: (k_v[1],k_v[0]), reverse = True):
             sortedList.append([key, value]);
         return sortedList;
 

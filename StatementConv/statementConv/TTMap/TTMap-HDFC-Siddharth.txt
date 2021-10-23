@@ -1,0 +1,122 @@
+SIDDHARTH SBI ACCOUNT,Assets:Current Assets:Savings Account:State Bank Of India
+FOOD COURT,Expenses:Other Expenses:food
+INDRAPRASTHA APO,Expenses:Other Expenses:gas
+APOLLO PHARMACY,Expenses:Medical Expenses
+BILLPAY DR-HDFCWI,Expenses:Other Expenses:creditcard
+BILLDKAMAZO,Expenses:Other Expenses:Amazon
+YATRA,Expenses:Other Expenses:Transport
+RELIANCEJIO,Expenses:Other Expenses:mobile
+HALDIRAM,Expenses:Other Expenses:food
+BIGBASKET,Expenses:Other Expenses:food
+RAZPOLACABS,Expenses:Other Expenses:Transport
+POS 532676XXXXXX5229 TATACLIQ COM POS DEBIT,Assets:Fixed Asset:AC
+AMAZON,Expenses:Other Expenses:Amazon
+01031610022414,Assets:Loans & Advances (Assets):Dipti Bhansali
+interest,Income:Indirect Income:Bank Interest
+irctc,Expenses:Other Expenses:Transport
+spice jet,Expenses:Other Expenses:Transport
+kavita singh,Expenses:Rent
+railways,Expenses:Other Expenses:Transport
+nwd,Assets:Cash-in-hand
+atw,Assets:Cash-in-hand
+eaw,Assets:Cash-in-hand
+sbin0001055,Assets:Current Assets:Savings Account:State Bank Of India
+adobe,Income:Indirect Income:Salary
+pos,Expenses:Other Expenses:Miscelenous
+billdk,Expenses:Other Expenses:Miscelenous
+tpt,Expenses:Other Expenses:Miscelenous
+AVENUES INDIA LTD,Expenses:Other Expenses:Miscelenous
+SHREYANSH JAIN,Assets:Loans & Advances (Assets):Shreyansh Jain
+HATHWAY,Expenses:Other Expenses:internet
+HEWITT,Income:Indirect Income:Salary
+AON SERVICES,Income:Indirect Income:Salary
+CITRUS,Expenses:Other Expenses:Miscelenous
+BOOKMYSHOW,Expenses:Other Expenses:Miscelenous
+PAYUIBIBOWEBPVTLTD,Expenses:Other Expenses:Miscelenous
+Expense,Expenses:Other Expenses:Miscelenous
+Travel,Expenses:Other Expenses:Transport
+ATM,Assets:Cash-in-hand
+Transfer-SBI,Assets:Current Assets:Savings Account:State Bank Of India
+Salary,Income:Indirect Income:Salary
+Transfer-Shreyansh,Assets:Loans & Advances (Assets):Shreyansh Jain
+PAYURELIGA,Expenses:Medical Insurance
+GODADDY,Expenses:Other Expenses:Miscelenous
+CECS C-AKBPJ8974F,Expenses:Income TAX
+PAYTM,Expenses:Other Expenses:paytm
+AMAZON,Expenses:Other Expenses:Amazon
+GVDPATIDAR,Expenses:Other Expenses:Miscelenous
+UBER@AXISBANK,Expenses:Other Expenses:Transport
+MYNTRA@YBL,Expenses:Other Expenses:cloth
+PAYUOLAM,Expenses:Other Expenses:cloth
+JASBIR KAUR BEDI,Expenses:Rent
+9561869421@UPI,Expenses:Other Expenses:Miscelenous
+PAYUOLACAB,Expenses:Other Expenses:Transport
+SACHINPRASAD1@YBL,Expenses:Other Expenses:Miscelenous
+PAYMENT@OKAXIS,Expenses:Other Expenses:Miscelenous
+SACHIN.05PRASAD-2@OKHDFCBANK,Expenses:Other Expenses:Miscelenous
+RAHULSAHERAWAT@OKHDFCBANK,Expenses:Other Expenses:Miscelenous
+DILIP KUMAR JAIN,Assets:Loans & Advances (Assets):Dilip Jain
+FD BOOKED,Assets:Investment:FD With HDFC
+SWEEP-IN CREDIT,Assets:Investment:FD With HDFC
+INT. ON SWCR,Income:Indirect Income:FD Interest
+SHAILENDRA0728@OKHDFCBANK,Expenses:Other Expenses:Miscelenous
+MRS SAROJ NAHATA,Expenses:Other Expenses:Miscelenous
+DIPTI ASHOK BHANSALI,Assets:Loans & Advances (Assets):Dipti Bhansali
+ICICI PRUDENTIAL MU,Assets:Investment:Mutual Fund
+DEBIT CARD CASH BACK,Expenses:Other Expenses:Miscelenous
+DINESH MISHRILALJI PAGARIA,Expenses:Other Expenses:Miscelenous
+DIPTI BHANSALI,Assets:Loans & Advances (Assets):Dipti Bhansali
+MF UTILITIES,Assets:Investment:Mutual Fund
+IB FD PREMAT PRINCIPAL,Assets:Investment:FD With HDFC
+IB FD PREMAT INT PAID,Income:Indirect Income:FD Interest
+SMARTBUY@HDFCBANK,Expenses:Other Expenses:Transport
+LIC OF INDIA,Expenses:Life Insurance
+RAZPRAZORPAY,Assets:Fixed Asset:ZEFO
+RAZPARZ,Assets:Fixed Asset:ZEFO
+FOREXPLUS CARD USD,Expenses:Other Expenses:Miscelenous
+RAZPARZTECHNOLOGIES,Expenses:Other Expenses:Miscelenous
+FKRT@YBL,Expenses:Other Expenses:Miscelenous
+IB BILLPAY,Expenses:Other Expenses:Miscelenous
+ANUBHAVMISHRA1993@OKHDFCBANK,Expenses:Other Expenses:Miscelenous
+OLACABS@AXISBANK,Expenses:Other Expenses:Transport
+THOMAS COOK,Expenses:Other Expenses:Miscelenous
+VARDHAMAN TEXT,Assets:Loans & Advances (Assets):Vardhaman Textiles
+8950044750@YBL,Expenses:Other Expenses:Miscelenous
+JBY4933417_NET,Expenses:Other Expenses:Miscelenous
+SACHIN KUMAR,Expenses:Other Expenses:Miscelenous
+TRAN-HDFC MID,Assets:Investment:Mutual Fund
+@UPI,Expenses:Other Expenses:Miscelenous
+CBDT TAX,Assets:Loans & Advances (Assets):Vardhaman Textiles
+ADOBE SALARY,Income:Indirect Income:Salary
+VARDHAMAN TEXTILES,Assets:Loans & Advances (Assets):Vardhaman Textiles
+RASTOGI,Expenses:Rent
+FLIPKART,Expenses:Other Expenses:Miscelenous
+IMPS P2P,Expenses:Other Expenses:Miscelenous
+PAYUREDBUS,Expenses:Other Expenses:Transport
+CGTRANSPORTDEPARTMEN,Expenses:Other Expenses:Miscelenous
+RFX 080218RCN01362,Expenses:Other Expenses:Miscelenous
+CGCTP,Assets:Loans & Advances (Assets):Vardhaman Textiles
+MAHESH ANDAN,Expenses:Other Expenses:Miscelenous
+BHANSALIDIPTI,Assets:Loans & Advances (Assets):Dipti Bhansali
+BHIM REWARD,Expenses:Other Expenses:Miscelenous
+ZERODHA,Assets:Loans & Advances (Assets):Sundry Debtor:Zerodha
+NEFT CR-LAVB0000999-VARDHAMAN FINANCE-SIDDHARTH KUMAR JAIN-LVBN18227737578,Expenses:Other Expenses:Miscelenous
+TEMPLETON-INC FUND,Assets:Investment:Mutual Fund
+MOTILAL OSWAL,Assets:Investment:Mutual Fund
+BAJAJ FINANCE,Assets:Investment:Bajaj Finance
+OLA.MONEY,Expenses:Other Expenses:Transport
+FOREXCARD ISSSUE,Expenses:Bank Charges
+PAYUSINOINDIAETAILPR,Expenses:Other Expenses:cloth
+JABONGCOM,Expenses:Other Expenses:cloth
+ISSUANCE / RELOAD CHARGES,Expenses:Bank Charges
+BIGBASKETCOM,Expenses:Other Expenses:food
+CLEARTRIPPRIVATEL,Expenses:Other Expenses:Transport
+HDFCBANKSMARTBUY,Expenses:Other Expenses:Transport
+TECHMAHINDRAFINANCE,Assets:Loans & Advances (Assets):Sundry Debtor:TechMahindra
+UPI RET-,Expenses:Other Expenses:Miscelenous
+GROFERSCOM,Expenses:Other Expenses:food
+REF-EMVAMAZ-1WWIFWX850KSBQIMSA-30/6/18,Expenses:Other Expenses:Miscelenous
+ZERO EFFORT TECHNOLO,Expenses:Other Expenses:Miscelenous
+UPIRET,Expenses:Other Expenses:Miscelenous
+UPI-RET,Expenses:Other Expenses:Miscelenous
+UPI-,Expenses:Other Expenses:Miscelenous

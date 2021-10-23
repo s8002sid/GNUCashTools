@@ -1,0 +1,11 @@
+Credit Interest Capitalized,Income:Indirect Incomes:BANK INT.
+0232385000000102,Assets:Current Assets:Loans & Advances (Asset):Vardhaman Finance
+0232328000000274,Assets:Current Assets:Loans & Advances (Asset):DILIP KUMAR JAIN
+NIRMAL HANDLOOM CORP.,Assets:Current Assets:Loans & Advances (Asset):Nirmal Handloom
+BARB0DURGXX,Assets:Current Assets:Savings Account:Bank Of Baroda 02495
+VISA CARD ANNUAL FEE,Expenses:Indirect Expenses:Bank Charges
+CASH DEP DURG,Assets:Current Assets:Cash-In-Hand:Cash
+VARDHMAN MICRO FINAN,Assets:Current Assets:Savings Account:Laxhmi Vilas 1421
+BANK OF BARODA-MAIN BRANCH,Assets:Current Assets:Savings Account:Bank Of Baroda 02495
+HDFC BANK LTD.-DURG,Assets:Current Assets:Savings Account:HDFC BANK 50100061339771
+HDFC0000915-CENTRAL PROC,Assets:Current Assets:Savings Account:HDFC BANK 50100061339771

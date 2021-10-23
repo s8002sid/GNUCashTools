@@ -1,0 +1,10 @@
+{
+"statements":[
+{
+	"excelPath":"C:\\sj\\shreyansh-drive\\Family-Document\\Shreyansh-Share\\Document\\Account\\Statement\\Bank\\HDFC_9771_2019-2020.xls",
+	"type":"HDFC9771",
+	"name":"Bro",
+	"generate": ["gnuCash"]
+}
+]
+}

@@ -1,0 +1,17 @@
+VARDHAMAN TEXTILES,Assets:Current Assets:Loans & Advances (Assets):Vardhaman Textile Durg
+PROGRAMMANAGEMENT FEE,Expenses:Indirect Expense:Bank Carges
+CREDIT INTEREST CAPITALISED,Income:Indirect Income:BANK Int
+NAGRIK SAHAKARI BANK,Assets:Current Assets:Savings Account:N.S.B S/B 6570
+CASH DEP DURG,Assets:Current Assets:Cash-In-hand:Cash
+LIC,Assets:Current Assets:LIC
+TECHDURGMUNCIPALCORP,Expenses:Indirect Expense:Miscellaneous
+ACH C- ACGPJ6132N-AY2018-19-CE1909113103,Income:Indirect Income:ITR Refund
+MF UTILITIES,Assets:Investments:Mutual Fund
+POS 438624XXXXXX0791 PAYTM,Expenses:Indirect Expense:Miscellaneous
+.ACH DEBIT RETURN CHARGES 030320 030320-MIR2006848736971,Expenses:Indirect Expense:Bank Carges
+BILLDKASSOCIATIONOFM,Assets:Investments:Mutual Fund
+ACH C- ACGPJ6132N-AY2012-13-CE1911869395,Income:Indirect Income:ITR Refund
+LAVB0000999-CHANDRA DEV,Assets:Current Assets:Savings Account:LVB - Saving
+BARB0DURGXX-CHANDRA DEVI JAIN,Assets:Current Assets:Savings Account:Bank of Baroda S/B 01446
+TEMPLETON-INC FUND REDN,Assets:Investments:Mutual Fund
+QHDF7561305233/BILLDKCHHATTISGARHST,Expenses:Indirect Expense:Miscellaneous

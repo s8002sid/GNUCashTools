@@ -1,0 +1,8 @@
+hriyaan,Assets:Current Assets:Savings Account:HDFC BANK 50100061339771
+irctc,Liabilities:Capital Account:Shreyansh Jain
+RD INSTALLMENT,Assets:Current Assets:Deposits:HDFC RD
+INTEREST,Income:Indirect Incomes:BANK INT.
+CASH DEP,Assets:Current Assets:Cash-In-Hand:Cash
+INST-ALERT CHG,Expenses:Indirect Expenses:Bank Charges
+MATURED RD,Assets:Current Assets:Deposits:HDFC RD
+BILLDK,Liabilities:Capital Account:Shreyansh Jain

@@ -1,0 +1,10 @@
+C:\sj\git\GNUCashTools\StatementConv\SCGUI\bin\Debug\SCGUI.exe.config
+C:\sj\git\GNUCashTools\StatementConv\SCGUI\bin\Debug\SCGUI.exe
+C:\sj\git\GNUCashTools\StatementConv\SCGUI\bin\Debug\SCGUI.pdb
+C:\sj\git\GNUCashTools\StatementConv\SCGUI\obj\Debug\SCGUI.csprojAssemblyReference.cache
+C:\sj\git\GNUCashTools\StatementConv\SCGUI\obj\Debug\SCGUI.Form1.resources
+C:\sj\git\GNUCashTools\StatementConv\SCGUI\obj\Debug\SCGUI.Properties.Resources.resources
+C:\sj\git\GNUCashTools\StatementConv\SCGUI\obj\Debug\SCGUI.csproj.GenerateResource.cache
+C:\sj\git\GNUCashTools\StatementConv\SCGUI\obj\Debug\SCGUI.csproj.CoreCompileInputs.cache
+C:\sj\git\GNUCashTools\StatementConv\SCGUI\obj\Debug\SCGUI.exe
+C:\sj\git\GNUCashTools\StatementConv\SCGUI\obj\Debug\SCGUI.pdb
